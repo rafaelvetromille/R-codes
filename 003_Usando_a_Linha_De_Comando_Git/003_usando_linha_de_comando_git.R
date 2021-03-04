@@ -7,7 +7,7 @@ New terminal: Alt + Shift + R
 Back to console: Ctrl + 2
 Send current line/selection to terminal: Ctrl + Alt + Enter
 
-# -- Códigos para adicionar
+# -- Códigos para adicionar os arquivos ao Github sem usar a interface gráfica
 
 git add -A
 git commit -m "comentário a desejar"
