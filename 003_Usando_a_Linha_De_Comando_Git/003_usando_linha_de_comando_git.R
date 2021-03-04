@@ -1,5 +1,6 @@
 # R CODES ----
 # 👉 CODE 003: Fazendo o commit e push pela linha de comando ----
+# 👉 Interesting link on this topic: https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/#1
 
 # -- 1. Atalho para "pular" para o terminal e outros
 
