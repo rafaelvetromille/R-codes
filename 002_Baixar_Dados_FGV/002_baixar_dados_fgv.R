@@ -6,9 +6,10 @@ library(RSelenium)
 library(tidyverse)
 library(glue)
 
-#-- Setting chromeOptions
+#-- Set the directory to download the file inside the correct folder
 setwd('002_Baixar_Dados_FGV/')
 
+#-- Setting chromeOptions
 file_path <- getwd() %>% str_replace_all("/", "\\\\\\")
 eCaps <- list(
   chromeOptions = list(
