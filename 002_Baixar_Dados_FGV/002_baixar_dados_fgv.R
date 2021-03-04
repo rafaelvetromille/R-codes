@@ -7,6 +7,8 @@ library(tidyverse)
 library(glue)
 
 #-- Setting chromeOptions
+setwd('002_Baixar_Dados_FGV/')
+
 file_path <- getwd() %>% str_replace_all("/", "\\\\\\")
 eCaps <- list(
   chromeOptions = list(
