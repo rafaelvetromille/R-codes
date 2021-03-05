@@ -52,8 +52,8 @@ remDr$findElement("id", "cphConsulta_butVisualizarResultado")$clickElement()
 #-- Open results in a new tab
 remDr$navigate("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx")
 
-
-html <- remDr$getPageSource()[[1]] %>%
+#-- Data wrangling
+df <- remDr$getPageSource()[[1]] %>%
 
   xml2::read_html(encoding = 'UTF-8') %>%
 
