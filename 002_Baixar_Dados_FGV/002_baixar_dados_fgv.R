@@ -6,24 +6,12 @@ library(RSelenium)
 library(tidyverse)
 library(glue)
 
-#-- Set the directory to download the file inside the correct folder
-setwd('002_Baixar_Dados_FGV/')
-
 #-- Setting chromeOptions
-file_path <- getwd() %>% str_replace_all("/", "\\\\\\")
-eCaps <- list(
-  chromeOptions = list(
-    args = c('--disable-gpu', '--window-size=1280,800'),
-    prefs = list(
-      "profile.default_content_settings.popups" = 0L,
-      "download.prompt_for_download" = FALSE,
-      "download.default_directory" = file_path
-    )
-  )
-)
+eCaps <- list(chromeOptions = list(
+  args = c('--disable-gpu', '--window-size=1280,800')))
 
 #-- Remote driver
-rD <- rsDriver(port = 4420L, browser = "chrome",
+rD <- rsDriver(port = 4445L, browser = "chrome",
                chromever = "88.0.4324.27",
                extraCapabilities = eCaps,
                verbose = FALSE)
@@ -31,6 +19,7 @@ rD <- rsDriver(port = 4420L, browser = "chrome",
 #-- Navigate to the website
 remDr <- rD$client
 remDr$navigate("http://www14.fgv.br/fgvdados20/default.aspx?Convidado=S")
+
 
 #-- Find and click elements
 remDr$findElement("id", "dlsCatalogoFixo_imbOpNivelUm_2")$clickElement()
@@ -65,7 +54,7 @@ df <- remDr$getPageSource()[[1]] %>%
 
   janitor::remove_empty(which = c("cols")) %>%
 
-  magrittr::set_colnames(html[1:ncol(.), 1]) %>%
+  magrittr::set_colnames(.[1:ncol(.), 1]) %>%
 
   tidyr::drop_na()
 
