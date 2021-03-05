@@ -52,14 +52,25 @@ remDr$findElement("id", "cphConsulta_butVisualizarResultado")$clickElement()
 #-- Open results in a new tab
 remDr$navigate("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx")
 
-#-- Download .csv file
-remDr$findElement("id", "lbtSalvarCSV")$clickElement()
+
+html <- remDr$getPageSource()[[1]] %>%
+
+  xml2::read_html(encoding = 'UTF-8') %>%
+
+  rvest::html_table(fill = TRUE) %>%
+
+  magrittr::extract2(3) %>%
+
+  dplyr::slice(-1) %>%
+
+  janitor::remove_empty(which = c("cols")) %>%
+
+  magrittr::set_colnames(html[1:ncol(.), 1]) %>%
+
+  tidyr::drop_na()
 
 #-- Close server
 remDr$closeServer()
 
 #-- Close browser
 remDr$close()
-
-#-- Verify the download file
-list.files(getwd())
