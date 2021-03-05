@@ -1,5 +1,5 @@
 # R CODES ----
-# 👉 CODE 002: Baixar dados do site FGV Dados c/ Rselenium ----
+# 👉 CODE 002: Baixar dados do site FGV DADOS c/ Rselenium ----
 
 #-- Load packages
 library(RSelenium)
