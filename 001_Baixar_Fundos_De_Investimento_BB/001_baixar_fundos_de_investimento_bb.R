@@ -27,7 +27,7 @@ df <- tabela %>%
 
         dplyr::rename(fundo = 2) %>%
 
-        dplyr::rename_all(.funs = funs(str_remove_all(string = ., pattern = "\\_r"))) %>%
+        dplyr::rename_all(.funs = ~str_remove_all(string = ., pattern = "\\_r")) %>%
 
         dplyr::mutate(fundo = fundo %>% str_squish() %>% str_remove_all(pattern = " ?\\([0-9]\\)")) %>%
 
@@ -58,58 +58,41 @@ df <- tabela %>%
 # -- 5. Solução de tratamento de dados oferecida por @clente
 
 # Locale para datas e números em português
-brasil <- locale(date_format = "%d/%m/%Y", decimal_mark = ",")
+brasil <- locale(date_format = "%d/%m/%Y", decimal_mark = ",", encoding = "Latin1")
 
 # Função para parsear uma tabela
 parse_table <- . %>%
-
   html_table(FALSE) %>%
-
   as_tibble() %>%
-
   mutate(
     across(.fns = ~ifelse(row_number() == 2, paste(lag(.x), .x), .x)),
     categoria = ifelse(row_number() == 3, lag(X1), NA)
   ) %>%
-
   row_to_names(2) %>%
-
   rename(fundo = 1, categoria = 14) %>%
-
   set_names(str_remove, "\\(.*?\\)|R[$]") %>%
-
   clean_names(numerals = "middle") %>%
-
   mutate(tipo = ifelse(str_starts(cota, "[A-Z]"), cota, NA)) %>%
-
   fill(tipo, categoria) %>%
-
   replace_na(list(tipo = "Ações")) %>%
-
   mutate(across(.fns = str_squish)) %>%
-
   filter(tipo != cota) %>%
-
   relocate(categoria, tipo) %>%
-
   mutate(
     pl_medio_taxa_de_adm_aa = str_remove(pl_medio_taxa_de_adm_aa, "%"),
-
-    categoria = ifelse(categoria == "Ações Fundo", "Ações", categoria)
+    categoria = ifelse(categoria == "Ações Fundo", "Fundo de Ações", categoria),
+    across(.fns = ~na_if(., "-"))
   ) %>%
-
-  type_convert(na = c("-", ""), locale = brasil) %>%
-
   mutate(pl_medio_taxa_de_adm_aa = pl_medio_taxa_de_adm_aa/100)
 
 # Parsear as tabelas
-"https://bit.ly/3rrMoPP" %>%
+df <- "https://bit.ly/3rrMoPP" %>%
   read_html() %>%
-
   xml_find_all("//table") %>%
-
   map_dfr(parse_table) %>%
-
   glimpse(width = 70)
+
+
+
 
 
