@@ -8,10 +8,10 @@ library(glue)
 
 #-- Setting chromeOptions
 eCaps <- list(chromeOptions = list(
-  args = c( '--disable-gpu', '--window-size=1280,800')))
+  args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
 
 #-- Remote driver
-rD <- rsDriver(port = 4438L, browser = "chrome",
+rD <- rsDriver(port = 4437L, browser = "chrome",
                chromever = "88.0.4324.27",
                extraCapabilities = eCaps)
 
@@ -89,5 +89,8 @@ remDr$close()
 #-- Close server
 remDr$closeServer()
 rD$server$stop()
+
+#-- Keeping only data.frame
+rm(eCaps, i, rD, remDr, webElem)
 
 
