@@ -8,23 +8,39 @@ library(glue)
 
 #-- Setting chromeOptions
 eCaps <- list(chromeOptions = list(
-  args = c('--disable-gpu', '--window-size=1280,800')))
+  args = c( '--disable-gpu', '--window-size=1280,800')))
 
 #-- Remote driver
-rD <- rsDriver(port = 4445L, browser = "chrome",
+rD <- rsDriver(port = 4438L, browser = "chrome",
                chromever = "88.0.4324.27",
-               extraCapabilities = eCaps,
-               verbose = FALSE)
+               extraCapabilities = eCaps)
 
 #-- Navigate to the website
 remDr <- rD$client
 remDr$navigate("http://www14.fgv.br/fgvdados20/default.aspx?Convidado=S")
-
+webElem <- NULL
+while(is.null(webElem)){
+  webElem <- tryCatch({remDr$findElement(using = 'id', value = "dlsCatalogoFixo_imbOpNivelUm_2")},
+                      error = function(e){NULL})
+  }
 
 #-- Find and click elements
 remDr$findElement("id", "dlsCatalogoFixo_imbOpNivelUm_2")$clickElement()
+webElem <- NULL
+while(is.null(webElem)){
+  webElem <- tryCatch({remDr$findElement(using = 'id', value = "cphConsulta_rbtSerieHistorica")},
+                      error = function(e){NULL})
+}
+
 remDr$findElement("id", "cphConsulta_rbtSerieHistorica")$clickElement()
+
 remDr$findElement("id", "dlsCatalogoFixo_imbOpNivelDois_3")$clickElement()
+webElem <- NULL
+while(is.null(webElem)){
+  webElem <- tryCatch({remDr$findElement(using = 'id', value = "dlsMovelCorrente_imbIncluiItem_0")},
+                      error = function(e){NULL})
+}
+
 
 #-- Select series
 for (i in 1:6) {
@@ -34,9 +50,16 @@ for (i in 1:6) {
 
 #-- Close Button
 remDr$findElement("id", "butCatalogoMovelFecha")$clickElement()
+webElem <- NULL
+while(is.null(webElem)){
+  webElem <- tryCatch({remDr$findElement(using = 'id', value = "cphConsulta_dlsSerie_chkSerieEscolhida_0")},
+                      error = function(e){NULL})
+}
+
 
 #-- View results
 remDr$findElement("id", "cphConsulta_butVisualizarResultado")$clickElement()
+Sys.sleep(1)
 
 #-- Open results in a new tab
 remDr$navigate("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx")
@@ -44,7 +67,9 @@ remDr$navigate("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx")
 #-- Data wrangling
 df <- remDr$getPageSource()[[1]] %>%
 
-  xml2::read_html(encoding = 'UTF-8') %>%
+  xml2::read_html() %>%
+
+  xml2::xml_find_all("//table") %>%
 
   rvest::html_table(fill = TRUE) %>%
 
@@ -58,8 +83,11 @@ df <- remDr$getPageSource()[[1]] %>%
 
   tidyr::drop_na()
 
-#-- Close server
-remDr$closeServer()
-
 #-- Close browser
 remDr$close()
+
+#-- Close server
+remDr$closeServer()
+rD$server$stop()
+
+
