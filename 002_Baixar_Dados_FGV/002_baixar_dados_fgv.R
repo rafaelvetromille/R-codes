@@ -11,7 +11,7 @@ eCaps <- list(chromeOptions = list(
   args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
 
 #-- Remote driver
-rD <- rsDriver(port = 4437L, browser = "chrome",
+rD <- rsDriver(port = 4434L, browser = "chrome",
                chromever = "88.0.4324.27",
                extraCapabilities = eCaps)
 
@@ -81,7 +81,21 @@ df <- remDr$getPageSource()[[1]] %>%
 
   magrittr::set_colnames(.[1:ncol(.), 1]) %>%
 
-  tidyr::drop_na()
+  tidyr::drop_na() %>%
+
+  dplyr::rename_all(~str_remove_all(.," ?\\(.*\\)")) %>%
+
+  tibble::as_tibble() %>%
+
+  dplyr::mutate(
+
+    across(.fns = ~na_if(.x, "-")),
+
+    across(.cols = 1, .fns = ~lubridate::my(.x)),
+
+    across(.cols = -1, .fns = ~parse_number(.x, locale = locale(decimal_mark = ',')))
+
+    )
 
 #-- Close browser
 remDr$close()
