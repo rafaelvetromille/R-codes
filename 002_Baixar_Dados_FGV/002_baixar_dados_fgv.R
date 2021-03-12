@@ -11,7 +11,7 @@ eCaps <- list(chromeOptions = list(
   args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
 
 #-- Remote driver
-rD <- rsDriver(port = 4434L, browser = "chrome",
+rD <- rsDriver(port = 4431L, browser = "chrome",
                chromever = "88.0.4324.27",
                extraCapabilities = eCaps)
 
@@ -55,7 +55,6 @@ while(is.null(webElem)){
   webElem <- tryCatch({remDr$findElement(using = 'id', value = "cphConsulta_dlsSerie_chkSerieEscolhida_0")},
                       error = function(e){NULL})
 }
-
 
 #-- View results
 remDr$findElement("id", "cphConsulta_butVisualizarResultado")$clickElement()
