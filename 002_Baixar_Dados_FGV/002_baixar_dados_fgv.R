@@ -88,11 +88,11 @@ df <- remDr$getPageSource()[[1]] %>%
 
   dplyr::mutate(
 
-    across(.fns = ~na_if(.x, "-")),
+    across(.fns = ~dplyr::na_if(.x, "-")),
 
     across(.cols = 1, .fns = ~lubridate::my(.x)),
 
-    across(.cols = -1, .fns = ~parse_number(.x, locale = locale(decimal_mark = ',')))
+    across(.cols = -1, .fns = ~readr::parse_number(.x, locale = locale(decimal_mark = ',')))
 
     )
 
