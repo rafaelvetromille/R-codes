@@ -105,5 +105,3 @@ rD$server$stop()
 
 #-- Keeping only data.frame
 rm(eCaps, i, rD, remDr, webElem)
-
-
