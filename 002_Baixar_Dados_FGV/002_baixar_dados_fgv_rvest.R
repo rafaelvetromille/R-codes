@@ -163,11 +163,13 @@ vs_gen <- r3 %>%
 #' 15. Escreve os parâmetros (em loop para clicar me cada um dos quadrados)
 for (i in 1:6) {
 
+  #' 15.1.
   ctl00smg <- paste0("ctl00$updpCatalogo|ctl00$dlsMovelCorrente$ctl0", i-1, "$imbIncluiItem")
   ctl00smg <- glue("ctl00$updpCatalogo|ctl00$dlsMovelCorrente$ctl0{i-1}$imbIncluiItem")
   dlsMovelCorrente.x <- glue("ctl00$dlsMovelCorrente$ctl0{i-1}$imbIncluiItem.x")
   dlsMovelCorrente.y <- glue("ctl00$dlsMovelCorrente$ctl0{i-1}$imbIncluiItem.y")
 
+  #' 15.2.
   parametros <- list(
     "ctl00$smg" = ctl00smg,
     "ctl00$drpFiltro" = "E",
@@ -202,19 +204,19 @@ for (i in 1:6) {
     dlsMovelCorrente.x = "5",
     dlsMovelCorrente.y = "7")
 
+  #' 15.2.
   names(parametros)[length(names(parametros))-1] <- dlsMovelCorrente.x
   names(parametros)[length(names(parametros))] <- dlsMovelCorrente.y
 
-  # faz a requisição POST
+  #' 15.2. Faz a requisição POST
   u_post <- "http://www14.fgv.br/fgvdados20/consulta.aspx"
   r <- httr::POST(u_post, body = parametros, encode = "form")
-
 }
 
 #' 16. Acessa o resultado da requisição
 r4 <- httr::GET("http://www14.fgv.br/fgvdados20/consulta.aspx")
 
-# pega parâmetros que dependem da sessão
+#' 17. Pega parâmetros que dependem da sessão
 vs <- r4 %>%
   xml2::read_html() %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATE']") %>%
@@ -225,7 +227,7 @@ vs_gen <- r4 %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATEGENERATOR']") %>%
   xml2::xml_attr("value")
 
-# escreve os parâmetros (obtive da aba "Network")
+#' 18. Gravar os parâmetros a serem utilizados
 parametros <- list(
   "ctl00$smg" = "ctl00$updpCatalogo|ctl00$dlsMovelPassada$ctl00$imbOpPassada",
   "ctl00$drpFiltro" = "E",
@@ -260,15 +262,17 @@ parametros <- list(
   "ctl00$dlsMovelPassada$ctl00$imbOpPassada.x" = "6",
   "ctl00$dlsMovelPassada$ctl00$imbOpPassada.y" = "7")
 
-# faz a requisição POST
+#' 19. Faz a requisição POST
 u_post <- "http://www14.fgv.br/fgvdados20/consulta.aspx"
 r <- httr::POST(u_post, body = parametros, encode = "form")
 
-# acessa o resultado da requisição
+#' 20. Acessa o resultado da requisição
 r5 <- httr::GET("http://www14.fgv.br/fgvdados20/consulta.aspx")
 
-r5 <- httr::GET("http://www14.fgv.br/fgvdados20/visualizaconsulta.aspx")
+#' 20. Acessa o resultado da requisição
+r6 <- httr::GET("http://www14.fgv.br/fgvdados20/visualizaconsulta.aspx")
 
+#' 21. Salva o data.frame e arruma os dados
 df <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %>%
 
   xml2::read_html() %>%
