@@ -1,14 +1,15 @@
-library(magrittr)
-library(glue)
-library(xml2)
-library(tidyverse)
+# R CODES ----
+# 👉 CODE 002: BAIXAR DADOS DO SITE FGVDADOS c/ RVEST E XML2 ----
 
-###################### Parte 1
+#' 00. Carregar pacotes necessários ----
+require(tidyverse)
+require(xml2)
+require(rvest)
 
-# acessa pagina inicial
+#' 01. Acessa a página inicial ----
 r0 <- httr::GET("http://www14.fgv.br/fgvdados20/default.aspx?Convidado=S")
 
-# pega parâmetros que dependem da sessão
+#' 02. Armazena os parâmetros que irão dependem de cada sessão ----
 vs <- r0 %>%
   xml2::read_html() %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATE']") %>%
@@ -19,7 +20,7 @@ vs_gen <- r0 %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATEGENERATOR']") %>%
   xml2::xml_attr("value")
 
-# escreve os parâmetros (obtive da aba "Network")
+#' 03. Escreve os parâmetros
 parametros <- list(
   "ctl00$smg" = "ctl00$updpCatalogo|ctl00$dlsCatalogoFixo$ctl02$imbOpNivelUm",
   "ctl00$drpFiltro" = "E",
@@ -49,16 +50,14 @@ parametros <- list(
   "ctl00$dlsCatalogoFixo$ctl02$imbOpNivelUm.y" = "0"
 )
 
-# faz a requisição POST
+#' 04. Faz a requisição POST
 u_post <- "http://www14.fgv.br/fgvdados20/default.aspx"
 r <- httr::POST(u_post, body = parametros, encode = "form")
 
-# acessa o resultado da requisição
+#' 05. Acessa o resultado da requisição
 r1 <- httr::GET("http://www14.fgv.br/fgvdados20/consulta.aspx")
 
-###################### Parte 2
-
-# pega parâmetros que dependem da sessão
+#' 06. Pega os parâmetros que dependem da nova sessão aberta anteriormente
 vs <- r1 %>%
   xml2::read_html() %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATE']") %>%
@@ -69,7 +68,7 @@ vs_gen <- r1 %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATEGENERATOR']") %>%
   xml2::xml_attr("value")
 
-# escreve os parâmetros (obtive da aba "Network")
+#' 07. Escreve os parâmetros (agora dessa nova sessão)
 parametros <- list(
   "ctl00$smg" = "ctl00$cphConsulta$updpOpcoes|ctl00$cphConsulta$rbtSerieHistorica",
   "__EVENTTARGET" = "ctl00$cphConsulta$rbtSerieHistorica",
@@ -96,16 +95,14 @@ parametros <- list(
   "ctl00$txtBAAtualizada" = "",
   "__ASYNCPOST" = "true")
 
-# faz a requisição POST
+#' 08. Faz a requisição POST
 u_post <- "http://www14.fgv.br/fgvdados20/consulta.aspx"
 r <- httr::POST(u_post, body = parametros, encode = "form")
 
-# acessa o resultado da requisição
+#' 09. Acessa o resultado da requisição
 r2 <- httr::GET("http://www14.fgv.br/fgvdados20/consulta.aspx")
 
-###################### Parte 3
-
-# pega parâmetros que dependem da sessão
+#' 10. Pega os parâmetros que dependem da sessão
 vs <- r2 %>%
   xml2::read_html() %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATE']") %>%
