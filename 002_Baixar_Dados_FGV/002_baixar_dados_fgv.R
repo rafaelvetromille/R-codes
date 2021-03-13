@@ -11,14 +11,14 @@ eCaps <- list(chromeOptions = list(
   args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
 
 #-- Remote driver
-rD <- rsDriver(port = 4431L, browser = "chrome",
-               chromever = "88.0.4324.27",
+rD <- rsDriver(port = 4442L, browser = "chrome",
                extraCapabilities = eCaps)
 
 #-- Navigate to the website
 remDr <- rD$client
+
 remDr$navigate("http://www14.fgv.br/fgvdados20/default.aspx?Convidado=S")
-webElem <- NULL
+  webElem <- NULL
 while(is.null(webElem)){
   webElem <- tryCatch({remDr$findElement(using = 'id', value = "dlsCatalogoFixo_imbOpNivelUm_2")},
                       error = function(e){NULL})
@@ -63,6 +63,16 @@ Sys.sleep(1)
 #-- Open results in a new tab
 remDr$navigate("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx")
 
+buscarButton <- remDr$findElement(using = 'xpath', '//*[@id="xgdvConsulta_DXMainTable"]/tbody')
+
+teste <- buscarButton$getElementText()
+
+teste1 <- teste %>%
+  map(~str_split(.x, "\n")) %>%
+  extract2(1) %>%
+  extract2(1) %>%
+  as_tibble()
+
 #-- Data wrangling
 df <- remDr$getPageSource()[[1]] %>%
 
@@ -95,6 +105,18 @@ df <- remDr$getPageSource()[[1]] %>%
     across(.cols = -1, .fns = ~readr::parse_number(.x, locale = locale(decimal_mark = ',')))
 
     )
+
+
+# close browser
+remDr$close()
+
+
+# stop the selenium server
+rD[["server"]]$stop()
+
+# and delete it
+rm(rD)
+
 
 #-- Close browser
 remDr$close()
