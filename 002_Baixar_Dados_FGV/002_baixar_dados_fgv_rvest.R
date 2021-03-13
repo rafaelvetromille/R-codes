@@ -1,5 +1,5 @@
-# R CODES ----
-# 👉 CODE 002: BAIXAR DADOS DO SITE FGVDADOS c/ RVEST E XML2 ----
+#' R CODES ----
+#' 👉 CODE 002: BAIXAR DADOS DO SITE FGVDADOS C/ RVEST E XML2 ----
 
 #' 00. Carregar pacotes necessários ----
 require(tidyverse)
@@ -113,7 +113,7 @@ vs_gen <- r2 %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATEGENERATOR']") %>%
   xml2::xml_attr("value")
 
-# escreve os parâmetros (obtive da aba "Network")
+#' 11. Escreve os parâmetros da nova sessão
 parametros <- list(
   "ctl00$smg" = "ctl00$updpCatalogo|ctl00$dlsCatalogoFixo$ctl03$imbOpNivelDois",
   "ctl00$drpFiltro" = "E",
@@ -142,16 +142,14 @@ parametros <- list(
   "ctl00$dlsCatalogoFixo$ctl03$imbOpNivelDois.x" = "7",
   "ctl00$dlsCatalogoFixo$ctl03$imbOpNivelDois.y" = "4")
 
-# faz a requisição POST
+#' 12. Faz a requisição POST
 u_post <- "http://www14.fgv.br/fgvdados20/consulta.aspx"
 r <- httr::POST(u_post, body = parametros, encode = "form")
 
-# acessa o resultado da requisição
+#' 13. Acessa o resultado da requisição dessa nova sessão
 r3 <- httr::GET("http://www14.fgv.br/fgvdados20/consulta.aspx")
 
-###################### Parte 4
-
-# pega parâmetros que dependem da sessão
+#' 14. Novamente pega os parâmetros que dependem da sessão
 vs <- r3 %>%
   xml2::read_html() %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATE']") %>%
@@ -162,8 +160,7 @@ vs_gen <- r3 %>%
   xml2::xml_find_first("//*[@id='__VIEWSTATEGENERATOR']") %>%
   xml2::xml_attr("value")
 
-# escreve os parâmetros (obtive da aba "Network")
-
+#' 15. Escreve os parâmetros (em loop para clicar me cada um dos quadrados)
 for (i in 1:6) {
 
   ctl00smg <- paste0("ctl00$updpCatalogo|ctl00$dlsMovelCorrente$ctl0", i-1, "$imbIncluiItem")
@@ -214,10 +211,8 @@ for (i in 1:6) {
 
 }
 
-# acessa o resultado da requisição
+#' 16. Acessa o resultado da requisição
 r4 <- httr::GET("http://www14.fgv.br/fgvdados20/consulta.aspx")
-
-###################### Parte 5
 
 # pega parâmetros que dependem da sessão
 vs <- r4 %>%
@@ -274,7 +269,7 @@ r5 <- httr::GET("http://www14.fgv.br/fgvdados20/consulta.aspx")
 
 r5 <- httr::GET("http://www14.fgv.br/fgvdados20/visualizaconsulta.aspx")
 
-igpm <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %>%
+df <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %>%
 
   xml2::read_html() %>%
 
@@ -298,6 +293,8 @@ igpm <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") 
 
   dplyr::mutate(
     across(.fns = ~dplyr::na_if(.x, "-")),
+
     across(.cols = 1, .fns = ~lubridate::my(.x)),
+
     across(.cols = -1, .fns = ~readr::parse_number(.x, locale = locale(decimal_mark = ',')))
   )
