@@ -204,11 +204,11 @@ for (i in 1:6) {
     dlsMovelCorrente.x = "5",
     dlsMovelCorrente.y = "7")
 
-  #' 15.2.
+  #' 15.3.
   names(parametros)[length(names(parametros))-1] <- dlsMovelCorrente.x
   names(parametros)[length(names(parametros))] <- dlsMovelCorrente.y
 
-  #' 15.2. Faz a requisição POST
+  #' 15.4. Faz a requisição POST
   u_post <- "http://www14.fgv.br/fgvdados20/consulta.aspx"
   r <- httr::POST(u_post, body = parametros, encode = "form")
 }
@@ -302,3 +302,5 @@ df <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %>
 
     across(.cols = -1, .fns = ~readr::parse_number(.x, locale = locale(decimal_mark = ',')))
   )
+
+rm(list=setdiff(ls(), "df"))
