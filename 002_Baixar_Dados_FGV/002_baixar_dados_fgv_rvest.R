@@ -301,8 +301,9 @@ IGP <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %
 
     across(.cols = 1, .fns = ~lubridate::my(.x)),
 
-    across(.cols = -1, .fns = ~readr::parse_number(.x, locale = locale(decimal_mark = ',')))
-  )
+    across(.cols = -1, .fns = ~readr::parse_number(.x, locale = locale(decimal_mark = ',')))) %>%
+
+  tidyr::drop_na()
 
 #' 22. Limpa os registros e só deixa o data.frame
 rm(list=setdiff(ls(), "IGP"))
