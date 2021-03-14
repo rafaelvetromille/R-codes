@@ -296,6 +296,7 @@ df <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %>
   tibble::as_tibble() %>%
 
   dplyr::mutate(
+
     across(.fns = ~dplyr::na_if(.x, "-")),
 
     across(.cols = 1, .fns = ~lubridate::my(.x)),
