@@ -273,7 +273,7 @@ r5 <- httr::GET("http://www14.fgv.br/fgvdados20/consulta.aspx")
 r6 <- httr::GET("http://www14.fgv.br/fgvdados20/visualizaconsulta.aspx")
 
 #' 21. Salva o data.frame e arruma os dados
-df <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %>%
+IGP <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %>%
 
   xml2::read_html() %>%
 
@@ -305,4 +305,4 @@ df <- httr::GET("http://www14.fgv.br/fgvdados20/VisualizaConsultaFrame.aspx") %>
   )
 
 #' 22. Limpa os registros e só deixa o data.frame
-rm(list=setdiff(ls(), "df"))
+rm(list=setdiff(ls(), "IGP"))
