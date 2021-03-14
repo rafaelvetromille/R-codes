@@ -2,9 +2,9 @@
 #' 👉 CODE 002: BAIXAR DADOS DO SITE FGVDADOS C/ RVEST E XML2 ----
 
 #' 00. Carregar pacotes necessários ----
-require(tidyverse)
-require(xml2)
-require(rvest)
+library(tidyverse)
+library(xml2)
+library(rvest)
 
 #' 01. Acessa a página inicial ----
 r0 <- httr::GET("http://www14.fgv.br/fgvdados20/default.aspx?Convidado=S")
