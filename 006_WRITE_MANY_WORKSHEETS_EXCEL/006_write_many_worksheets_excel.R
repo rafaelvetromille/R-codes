@@ -12,19 +12,21 @@ write_sheet <- function(wb, sheet, data1, data2) {
   openxlsx::writeData(wb, sheet, data2, startRow = 3, startCol = 1)
 }
 
-teste_df <- data.frame(
-  country = c("UK", "Germany", "France"),
+test_df <- data.frame(
+  country = as.character(c("UK", "Germany", "France")),
   revenue = c(1000000, 2000000, 3000000), 
   staff = c(230, 280, 320)
-)
+) %>% 
+  as_tibble() %>% 
+  dplyr::mutate(country = as.character(country))
 
 # open a workbook 
 wb <- openxlsx::createWorkbook()
 
 # use rowwise and mutate to write all excel sheets in one command
-teste_df %>% 
+test_df %>% 
   dplyr::rowwise() %>% 
   dplyr::mutate(write_sheet = write_sheet(wb, country, revenue, staff))
 
 # save workbook
-openxlsx::saveWorkbook(wb, "test.xlsx")
+openxlsx::saveWorkbook(wb, "006_WRITE_MANY_WORKSHEETS_EXCEL/test.xlsx")
