@@ -30,3 +30,17 @@ test_df %>%
 
 # save workbook
 openxlsx::saveWorkbook(wb, "006_WRITE_MANY_WORKSHEETS_EXCEL/test.xlsx")
+
+library(xts)
+
+
+expinf = get_twelve_months_inflation_expectations('IPCA')
+
+expinf_s <- expinf %>% 
+  dplyr::filter(smoothed == "S") %>% 
+  dplyr::select(date, mean, median) 
+
+expinf12 = xts(expinf$mean[expinf$smoothed=='S'], order.by = expinf$date[expinf$smoothed=='S'])
+
+dataex = cbind(swap, expinf12)
+dataex = dataex[complete.cases(dataex),]
