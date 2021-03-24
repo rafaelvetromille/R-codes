@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+        <title>Gross Domestic Product for Saudi Arabia (MKTGDPSAA646NWDB) | FRED | St. Louis Fed</title>
+        <script>
+      dataLayer = []
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []
+      w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      })
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''
+      j.async = true
+      j.src =
+        '//www.googletagmanager.com/gtm.js?id=' + i + dl
+      f.parentNode.insertBefore(j, f)
+    })(window, document, 'script', 'dataLayer', 'GTM-5L322W')</script>
+    <!-- End Google Tag Manager -->
+
+        <meta name="description" content="Graph and download economic data for Gross Domestic Product for Saudi Arabia (MKTGDPSAA646NWDB) from 1968 to 2019 about Saudi Arabia and GDP.">
+            <meta name="keywords" content="saudi arabia, wdi, world bank, gdp, annual, nation, public domain: citation requested, nsa, Economic Data, FRED, St. Louis Fed, Federal Reserve">
+    
+
+        
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Dataset",
+        "license": "https://fred.stlouisfed.org/legal/#copyright-public-domain",
+        "name": "Gross Domestic Product for Saudi Arabia",
+        "description": "Graph and download economic data for Gross Domestic Product for Saudi Arabia (MKTGDPSAA646NWDB) from 1968 to 2019 about Saudi Arabia and GDP.",
+        "keywords": "saudi arabia, wdi, world bank, gdp, annual, nation, public domain: citation requested, nsa, Economic Data, FRED, St. Louis Fed, Federal Reserve, , World Development Indicators, , Gross Domestic Product, , , , Not Seasonally Adjusted",
+        "dateModified": "2020-12-17T16:39:00-06:00",
+        "inLanguage": "en-US",
+        "distribution": {
+            "@type": "DataDownload",
+            "contentUrl": "https://fred.stlouisfed.org/series/MKTGDPSAA646NWDB",
+            "encodingFormat": "application/json"
+        },
+        "alternateName": "MKTGDPSAA646NWDB",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "FRED",
+            "alternateName": "Federal Reserve Economic Data",
+            "url": "https://fred.stlouisfed.org/",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Federal Reserve Bank of St. Louis",
+                "url": "https://www.stlouisfed.org/",
+                "address": {
+                  "@type": "PostalAddress",
+                    "addressLocality": "St. Louis",
+                    "addressRegion": "MO",
+                    "postalCode": "63102",
+                    "streetAddress": "Federal Reserve Bank Plaza, 1 Broadway",
+                    "addressCountry": "USA"
+                },
+                 "department": "Research Division",
+                 "email": "fred@stlouisfed.org",
+                 "telephone": "(314) 444-3733"  
+               }
+           }               
+       }
+       
+
+
+    </script>
+        
+    <link rel="preconnect" href="https://research.stlouisfed.org">
+    <link rel="preconnect" href="https://uapi.stlouisfed.org">
+    <link rel="preconnect" href="https://alfred.stlouisfed.org">
+    <link rel="preconnect" href="https://fred.stlouisfed.org">
+    <link rel="preconnect" href="https://fred.stlouisfed.org">
+    <link rel="preconnect" href="https://apis.google.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <meta name="apple-itunes-app" content="app-id=451715489">
+    <meta name="google-play-app" content="app-id=org.stlouisfed.research.fred">
+
+        <meta name="series-tag" content="saudi arabia"><meta name="series-tag" content="wdi"><meta name="series-tag" content="world bank"><meta name="series-tag" content="gdp"><meta name="series-tag" content="annual"><meta name="series-tag" content="nation"><meta name="series-tag" content="public domain: citation requested"><meta name="series-tag" content="nsa">
+    
+        <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@stlouisfed">
+<meta name="twitter:description" content="Gross Domestic Product for Saudi Arabia">
+<meta name="twitter:title" content="FRED Economic Data">
+<meta name="twitter:url" content="https://fred.stlouisfed.org/series/MKTGDPSAA646NWDB">
+<meta name="twitter:image" content="https://fred.stlouisfed.org/graph/fredgraph.png?width=880&amp;height=440&amp;id=MKTGDPSAA646NWDB">
+<meta property="og:image" content="https://fred.stlouisfed.org/graph/fredgraph.png?width=880&amp;height=440&amp;id=MKTGDPSAA646NWDB">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gross Domestic Product for Saudi Arabia">
+<meta property="og:url" content="https://fred.stlouisfed.org/series/MKTGDPSAA646NWDB">
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      window.dataLayer = window.dataLayer || []
+
+      function gtag () {dataLayer.push(arguments)}
+
+      gtag('js', new Date())
+      gtag('config', 'UA-9926151-28', {'optimize_id': 'GTM-PP3C95H'})
+    </script>
+    <link rel="unapi-server" type="application/xml" title="unAPI" href="https://fred.stlouisfed.org/unapi/"/>
+<meta name="citation_type" content="Web Page">
+<meta name="citation_title" content="Gross Domestic Product for Saudi Arabia">
+<meta name="citation_short_title" content="MKTGDPSAA646NWDB">
+<meta name="citation_author" content="">
+<meta name="citation_website_title" content="FRED, Federal Reserve Bank of St. Louis">
+<meta name="citation_keywords" content="MKTGDPSAA646NWDB">
+<meta name="citation_public_url" content="https://fred.stlouisfed.org/series/MKTGDPSAA646NWDB">
+<meta name="citation_rights" content="">
+<meta name="dc.extra" content="GDP at purchaser&#039;s prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used.
+
+Source Code: NY.GDP.MKTP.CD ">
+<meta name="citation_date" content="2020-12-17">
+<meta name="dcterms:PeriodOfTime" content="start:1968-01-01; end:2019-01-01;">
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    <!--<meta name="viewport" content="width=device-width">-->
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/css/ie.css">
+
+    <![endif]-->
+        <link rel="canonical" href="https://fred.stlouisfed.org/series/MKTGDPSAA646NWDB">
+    
+    
+
+</head>
+<body class="series-page">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L322W"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- pingdom_uptime_check=uXCPjTUzTxL7ULra -->
+<link rel="stylesheet" type="text/css" href=/css/1551876305.bootstrap.custom.min.css>
+<script></script>
+<link rel="stylesheet" type="text/css" href=/css/1616173444.series.min.css>
+<script></script>
+<link rel="stylesheet" type="text/css" href=/assets/select2/dist/css/1508969298.select2.min.css>
+
+
+<!--googleoff: snippet-->
+<a href="#content-container" class="sr-only sr-only-focusable">Skip to main content</a>
+<!--googleon: snippet-->
+<a name="top" id="top"></a>
+<!--[if lt IE 7 ]>
+<div id="container" class="ie6 container"><![endif]-->
+<!--[if IE 7 ]>
+<div id="container" class="ie7 container"><![endif]-->
+<!--[if IE 8 ]>
+<div id="container" class="ie8 container"><![endif]-->
+<!--[if IE 9 ]>
+<div id="container" class="ie9 container"><![endif]-->
+<!--[if IE]>
+<div id="container" class="ie container"><![endif]-->
+<!--[if !(IE)]><!-->
+<div id="container" class="container"><!--<![endif]-->
+    <div id="header" class="col-xs-12">
+        <div>
+            <div id="hidden-user" class='hide'></div>
+            <div id="action-modal"></div>
+            <div class="col-xs-10 col-sm-12 col-md-8 header-logo">
+                <a href="//fred.stlouisfed.org/">
+                    <picture>
+                        <source srcset="//fred.stlouisfed.org/images/fred-masthead-2x.png" media="(min-width: 767px)">
+                        <source srcset="//fred.stlouisfed.org/graph/images/clear.png" media="(max-width: 767px)">
+                        <img src="//fred.stlouisfed.org/images/fred-masthead-2x.png" id="fred-logo" alt="" class="hidden-xs fred-masthead">
+                    </picture>
+                    <span style="margin-top:6px;" class="visible-xs" id="logo-replacement">
+                        <picture class="fred-header-mobile-masthead">
+                         <source srcset="//fred.stlouisfed.org/images/fred-masthead-mobile-2x.png" media="(max-width: 767px)">
+                         <source srcset="//fred.stlouisfed.org/graph/images/clear.png" media="(min-width: 768px)">
+                         <img src="//fred.stlouisfed.org/images/fred-masthead-mobile-2x.png" id="fred-logo" alt="" class="visible-xs fred-mobile-masthead">
+                        </picture>
+                    </span>
+                </a>
+                <a href="//research.stlouisfed.org">
+                    <picture>
+                        <source srcset="//fred.stlouisfed.org/images/fred-masthead-research-2x.webp" type="image/webp" media="(min-width: 767px)">
+                        <source srcset="//fred.stlouisfed.org/images/fred-masthead-research-2x.png" type="image/jpeg" media="(min-width: 767px)">
+                        <source srcset="//fred.stlouisfed.org/graph/images/clear.png" media="(max-width: 767px)">
+                        <img src="//fred.stlouisfed.org/images/fred-masthead-research-2x.png" alt="" class="hidden-xs" id="logo">
+                    </picture>
+                </a>
+            </div>
+            <div id="head-right" class="col-xs-2 col-sm-12 col-md-4"
+                 style="padding-right: 5px; padding-left: 0;text-align: right;">
+        <span class="visible-xs-block">
+            <a class="btn btn-default btn-sm" data-parent="#research-nav" data-toggle="collapse"
+               data-target="#nav-inner" href="#" style="margin-top:10px;">
+            <i class="fa fa-bars fa-2x"></i></a>
+        </span>
+                <div class="hidden-xs" id="signin-wrap">
+                    <div id="user-nav"></div>
+                </div>
+
+                <div id="head-search-form" class="hidden-xs col-md-12">
+                    <div id="head-search-container">
+                        <select id="head-search" name="head-search">
+                            <option></option>
+                        </select>
+                        <input type="hidden" name="st" class="search-text-input">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notifications-container"></div>
+    </div>
+
+    <style>
+.navbar-nav>li>a {line-height: inherit;}
+#nav-accordion .panel { border: none; }
+#nav-accordion .panel-body { padding: inherit; }
+#nav-accordion.panel-group { margin-bottom: inherit; }
+</style>
+
+<nav class="col-xs-12 navbar" id="research-nav" role="navigation">
+<div id="nav-inner" class="navbar-collapse collapse" style="padding-left: 0; padding-right: 0;">
+
+   <div id="nav-search-form" class="visible-xs-block col-xs-12" style="margin-top: 8px;margin-bottom: 4px;">
+       <div class="input-group" id="nav-search-container">
+           <input type="text" class="form-control" id="nav-search" name="st" placeholder="Search FRED">
+           <span class="input-group-btn">
+               <button type="submit" class="btn btn-default" id="nav-search-button"><i class="fa fa-search"></i></button>
+           </span>
+       </div>
+    </div>
+
+   <ul id="main-nav" class="navbar navbar-nav col-xs-12">
+        <li>
+            <a href="/" id="fred-link">FRED<span class="trademark">&reg;</span> Economic Data</a>
+        </li>
+        <li class="visible-xs">
+            <a href="https://research.stlouisfed.org/useraccount/">My Account</a>
+        </li>
+        <li>
+            <a href="https://research.stlouisfed.org/info-services.html" class="research-site-link">Information Services</a>
+        </li>
+        <li>
+            <a href="https://research.stlouisfed.org/publications/" id="publications-link" class="research-site-link">Publications</a>
+        </li>
+        <li>
+            <a href="https://research.stlouisfed.org/wp/" id="workingpapers-link" class="research-site-link">Working Papers</a>
+        </li>
+        <li>
+            <a href="https://research.stlouisfed.org/econ/" id="economist-link" class="research-site-link">Economists</a>
+        </li>
+        <li>
+            <a href="https://research.stlouisfed.org/about.html" class="research-site-link">About</a>
+        </li>
+        <li class="hidden-xs hidden-sm navbar-right" style="border:0">
+            <a href="http://www.stlouisfed.org" class="research-site-link">St. Louis Fed Home</a>
+        </li>
+    </ul>
+</div>
+</nav>
+
+
+    <div style="padding-left: 10px; padding-right: 10px;" class="clear" id="content-container">
+
+
+<abbr class="unapi-id" title="MKTGDPSAA646NWDB"></abbr>
+
+
+
+
+    <div class="col-xs-12" id="main-content-column">
+                        <!--<link rel="stylesheet" type="text/css" href=/assets/bootstrap/dist/css/1550073338.bootstrap.min.css>
+        <link rel="stylesheet" type="text/css" href=/css/1616173441.main.css>
+        -->
+                        <p id="breadcrumbs" class="site-breadcrumbs">
+     <span>
+       <a class="breadcrumb_link" href="/categories">Categories</a> &gt; <a class="breadcrumb_link" href="/categories/32263">International Data</a> &gt; <a class="breadcrumb_link" href="/categories/32265">Indicators</a> &gt; <a class="breadcrumb_link" href="/categories/32997">National Accounts</a> &gt; <a class="breadcrumb_link" href="/categories/32291">GDP</a>
+     </span>
+        </p>
+                                        
+                        <div id="page-title" class="page-title">
+            <h1 class="series-title">
+    <span id="series-title-text-container" class="col-xs-10 col-lg-11 pull-left">
+          <div id='favorite-toggle-container' class="favorite-toggle-container">
+    <a href="#" id='favorite-star' class="fa fa4 fa-star-o favorite-toggle" data-series-id="MKTGDPSAA646NWDB" title="Add to Favorites"></a>
+  </div>  Gross Domestic Product for Saudi Arabia<span class="smaller"> (MKTGDPSAA646NWDB)</span>    </span>
+    <div id="download-button-container">
+        <span class="pull-right col-xs-1">
+            <!-- Download button -->
+            <div class="btn-group pull-right">
+              <button type="button" id="download-button" class="btn-link series-button dropdown-toggle meta-button-round fg-download-btn-gtm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="fg-download-btn-gtm">Download </span><i class="fa fa-download fg-download-btn-gtm"></i></span>
+              </button>
+              <ul id="fg-download-menu" class="dropdown-menu  download-menu">
+              </ul>
+            </div>
+        </span>
+    </div>
+</h1>
+<input type="hidden" name="series-recently-viewed" class="series-recently-viewed" value="Gross Domestic Product for Saudi Arabia">
+
+        </div>
+                
+                <link rel="stylesheet" type="text/css" href=/assets/components-font-awesome/css/1477392983.font-awesome.min.css>
+<link rel="stylesheet" type="text/css" href=/assets/bootstrap-datepicker/dist/1544152624.bootstrap-datepicker.min.css>
+<div id="series-meta-row" class="row series-attributes">
+     <div id="meta-left-col" class="col-xs-12 col-sm-7 col-md-6">
+    
+
+    <div id="mobile-meta-col" style="display:none;" class="pull-left col-xs-12">
+    2019: <span class="series-meta-observation-value">792,966,838,161.65900</span> |
+    Current U.S. Dollars |
+    <span class="series-meta-value-frequency">
+        Annual    </span>  |
+    Updated: <span title="Dec 17, 2020 4:39 PM CST">Dec 17, 2020</span>
+    </div>
+    <div class="pull-left meta-col">
+        <p class="series-meta-label">Observation:</p>
+        <span class="series-meta-value">2019:</span>
+        <span class="series-meta-observation-value">792,966,838,161.65900</span>
+        <span class="hidden-sm small link recent-obs-link fg-mega-edit-gtm fg-more-obs-gtm" id="recent-obs-link">(+ more)</span>&nbsp;
+        <br /><span class="updated-text" title="Dec 17, 2020 4:39 PM CST">Updated:&nbsp;Dec 17, 2020</span>
+        <div id="recent-obs-table" style="display:none">
+            <table id="recent-obs" class="table table-condensed">
+                                <tr>
+                <td align="right">2019:&nbsp;</td>
+                <td align="right" class="series-obs value">792,966,838,161.65900</td>
+                <td>&nbsp;</td>
+                </tr>
+                                <tr>
+                <td align="right">2018:&nbsp;</td>
+                <td align="right" class="series-obs value">786,521,831,571.95700</td>
+                <td>&nbsp;</td>
+                </tr>
+                                <tr>
+                <td align="right">2017:&nbsp;</td>
+                <td align="right" class="series-obs value">688,586,244,286.51200</td>
+                <td>&nbsp;</td>
+                </tr>
+                                <tr>
+                <td align="right">2016:&nbsp;</td>
+                <td align="right" class="series-obs value">644,935,541,446.45300</td>
+                <td>&nbsp;</td>
+                </tr>
+                                <tr>
+                <td align="right">2015:&nbsp;</td>
+                <td align="right" class="series-obs value">654,269,902,888.71500</td>
+                <td>&nbsp;</td>
+                </tr>
+                                <tr><td colspan=2><a id="viewall-button" href="/data/MKTGDPSAA646NWDB.txt" target="_blank" class="btn btn-primary fg-view-all-obs fg-mega-edit-gtm fg-view-all-obs-gtm fg-download-share-gtm fg-download-gtm">View All</a></td></tr>
+            </table>
+        </div>
+    </div>
+    <div class="pull-left meta-col">
+        <p class="series-meta-label">Units:</p>
+        <span class="series-meta-value"><span class="series-meta-value-units">Current U.S. Dollars</span>,<br />Not Seasonally Adjusted        </span>
+    </div>
+<div class="pull-left meta-col">
+        <p class="series-meta-label">Frequency:</p>
+        <span class="series-meta-value">
+            <span class="series-meta-value-frequency">
+                Annual            </span>
+        </span>
+    </div>
+    </div>
+    <div id="meta-right-col" class="col-xs-12 col-sm-5 col-md-6 pull-right">
+        <div id="mobile-meta-icons" class="col-sm-2 pull-left">
+        <div id="meta-download-button-sm" class="pull-left">            <!-- Download button -->
+            <div class="btn-group">
+              <button type="button" id="download-button" class="btn-link series-button dropdown-toggle meta-button-round fg-download-btn-gtm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="fg-download-btn-gtm">Download&nbsp;</span><i class="fa fa-download fg-download-btn-gtm"></i>
+              </button>
+              <ul class="dropdown-menu">
+                  <li><a href="#" id="download-data" data-action="excel" class="download-menu-item fg-export-xls-gtm fs-export-gtm fg-download-share-gtm fg-download-gtm" rel="nofollow"><i class="fa fa-file-excel-o fg-download-share-gtm fg-download-gtm"></i> Excel</a></li>
+                  <li><a href="#" id="download-data-csv" data-action="csv" class="download-menu-item fg-export-csv-gtm fs-export-gtm fg-download-share-gtm fg-download-gtm" rel="nofollow"><i class="fa fa-file-text fg-download-share-gtm fg-download-gtm"></i> CSV</a></li>
+                  <li><a href="#" id="export-png" data-action="png" class="download-menu-item fg-export-png-gtm fs-export-gtm fg-download-share-gtm fg-download-gtm" rel="nofollow"><i class="fa fa-picture-o fg-download-share-gtm fg-download-gtm"></i> Image</a></li>
+                                <li><a href="#" id="export-powerpoint" data-action="ppt" class="download-menu-item fg-export-ppt-gtm fs-export-gtm" rel="nofollow"><i class="fa fa-file-powerpoint-o"></i> PowerPoint</a></li>
+                                <li><a href="#" id="export-pdf" data-action="pdf" class="download-menu-item fg-export-pdf-gtm fs-export-gtm fg-download-share-gtm fg-download-gtm" rel="nofollow"><i class="fa fa-file-pdf-o fg-download-share-gtm fg-download-gtm"></i> PDF</a></li>
+              </ul>
+            </div>
+</div>
+        <div id="meta-twitter-button-sm" class="pull-left"><a href="#" title="" target="_blank" rel="nofollow" class="share-button share-twitter meta-button-round"><i class="fa fa-twitter fa-2x fg-share-gtm"></i></a></div>
+        </div>
+
+        <div id="zoom-controls" class="col-xs-6 col-sm-8 col-md-9 pull-left ">
+            <div class="col-sm-offset-0 col-lg-offset-2 col-sm-12">
+                <div id="date-quick-range" class="pull-left col-xs-12 col-sm-12 col-md-4">
+                    <span class="ranges ">
+                        <span id="zoom-1yr" class="link fg-mega-edit-gtm fg-range-gtm fg-range-1y-gtm">1Y</span> |
+                        <span id="zoom-5yr" class="link fg-mega-edit-gtm fg-range-gtm fg-range-5y-gtm">5Y</span> |
+                        <span id="zoom-10yr" class="link fg-mega-edit-gtm fg-range-gtm fg-range-10y-gtm">10Y</span> |
+                        <span id="zoom-all" class="link fg-mega-edit-gtm fg-range-gtm fg-range-max-gtm">Max</span>
+                    </span>
+                </div>
+                <div id="date-custom-range" class="pull-left col-xs-12 col-sm-12 col-md-7">
+                    <div class="form-inline" id="graph-date-range">
+                    <div id="zoom-start">
+                        <label class="sr-only" for="input-cosd">From</label>
+                        <input type="text" id="input-cosd" class="input-sm cosd form-control pull-left fg-mega-edit-gtm fg-start-date-gtm" style="font-size:.85em;" value="1968-01-01">
+                    </div>
+
+                    <div class="pull-left date-seperator "><span class="hidden-xs hidden-sm">to</span></div>
+
+                    <div id="zoom-end" class="">
+                        <input id="input-coed" type="text" class="input-sm coed form-control pull-left fg-mega-edit-gtm fg-end-date-gtm" style="font-size:.85em" value="2019-01-01">
+                    </div>
+                    <div id="zoom-pie" class="pull-right hide">
+                        <div class="pull-left pie-date-label" style="margin: 8px 5px 0 5px;"><span class="hidden-xs hidden-sm">Date: </span></div>
+                        <input id="input-pie-date" type="text" class="input-sm pie-date form-control " style="font-size:.85em" value="">
+                    </div>
+                    <input type="hidden" class="initial-cosd" value="1968-01-01">
+                    <input type="hidden" class="initial-coed" value="2019-01-01">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="edit-button-container" class="col-sm-1 col-md-3 pull-right">
+        </div>
+        <div id="mobile-view-chart-button-container" class="pull-right">
+        </div>
+        <div id="cal-button-container" style="display:none;" class="col-sm-1 pull-right">
+            <a href="#" class="calendar-icon-toggle"><i class="fa fa-calendar fa-2x fg-cal-btn-gtm" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+<div id="desktop-view-chart-button-container" class="pull-right">
+</div>
+
+<link rel="stylesheet" type="text/css" href=/graph/css/1616173444.fredgraph.min.css>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: ["Open+Sans"]}
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+<input type="hidden" id="cosd" value="1968-01-01">
+<input type="hidden" id="coed" value="2019-01-01">
+
+
+<input type="hidden" id="range" value="">
+<input type="hidden" id="mode" value="fred">
+<div id="zoom-and-share">
+    <div id="fullscreen-container">
+                        <div id="resizable-graph-container">
+            <div id="root" data-graph-mode="fred">
+                <div class="loading-ring" /></div>
+            </div>
+        </div>
+        <br style="clear:both">
+        <div id="fullscreen-btn">
+            <img src="/graph/images/fullscreen.png" id="fullscreen-btn-icon"></img>
+        </div>
+    </div>
+</div>
+<div id="save-share-tab" class="save-share">
+    <div class="row">
+        <div id="share-col-copyright" class="pull-left">
+        <p class="copyright-note hide"><strong>Data in this graph are copyrighted. Please review the copyright information in the <span class="link show-notes">series notes</span> before sharing.</strong></p>
+        </div>
+    </div>
+        <div class="row">
+        <div id="share-col-1" class="pull-left col-xs-7 col-sm-7">
+            <div class="btn-group share-dropdown pull-left">
+                <button type="button" id="share-links-btn" class="btn-link series-button dropdown-toggle fg-share-links-btn-gtm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Share<span class="collapsable-btn-text fg-share-links-btn-gtm"> Links</span>&nbsp;<i class="fa fa-link bigger fg-share-links-btn-gtm"></i>
+              </button>
+              <ul class="dropdown-menu">
+                  <li><a href="#" class="permalink-btn page-permalink-btn fg-page-permalink-gtm" data-target=".page-permalink-container"><i class="fa fa-link bigger fg-page-permalink-gtm"></i> Page short URL</a></li>
+                <li><a href="#" class="permalink-btn embed-code-btn" data-target=".embed-code-container"><i class="fa fa-code bigger"></i> Embed in website</a></li>
+                <li><a href="#" class="permalink-btn image-permalink-btn" data-target=".image-permalink-container"><i class="fa fa-link bigger"></i> Image short URL</a></li>
+
+              </ul>
+            </div><!-- /share-dropdown -->
+
+            <div id="add-category-modal"><!-- React component; initialized with JS --></div>
+            <div class="btn-group account-dropdown pull-left">
+                <button type="button" id="share-links-btn" class="btn-link series-button dropdown-toggle fg-account-tools-btn-gtm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Account<span class="collapsable-btn-text fg-account-tools-btn-gtm"> Tools</span></a>&nbsp;<i class="fa fa-user bigger  fg-account-tools-btn-gtm"></i>
+              </button>
+              <ul class="dropdown-menu">
+
+            <li class="save-graph save-graph-modal-btn" id="save-graph-modal-btn"><!-- React component; initialized with JS--></li>
+            <li class="add-to-dashboard" id="add-to-dashboard-modal-btn"><!-- React component; initialized with JS--></li>
+                        <li class="add-data-list"><a href="https://research.stlouisfed.org/useraccount/datalists/addseries/MKTGDPSAA646NWDB" id="datalist" target="_blank" class="FredAddToDataList-gtm"><i class="fa fa-table bigger"></i> Add to data list</a></li>
+                        <li id="email-notify-container" data-notification-id="117640" class="notify-updates"><a href="https://research.stlouisfed.org/useraccount/addemailnotification/117640" id="emailnotify" class="FredAddEmailNotify-gtm"><i class="fa fa-envelope bigger"></i> Get email notification</a></li>
+                                      </ul>
+            </div><!-- /account-dropdown -->
+                  </div><!-- /share-col-1 -->
+        <div id="share-col-2" class="pull-right col-xs-5 col-sm-4 col-md-2">
+        <div id="share-socialmedia" class="social-links pull-right">
+            <a href="/graph/share.php" target="_blank" class="share-twitter tooltips social-share-link fg-download-share-gtm fg-social-share-gtm" data-toggle="tooltip" data-placement="top" title="" data-share-type="twitter" data-original-title="Share on Twitter"><i class="fa fa-twitter fa-3x fg-share-gtm fg-download-share-gtm fg-social-share-gtm"></i></a>
+            <a href="/graph/share.php" target="_blank" class="share-reddit tooltips social-share-link fg-download-share-gtm fg-social-share-gtm" data-toggle="tooltip" data-placement="top" title="" data-share-type="reddit" data-original-title="Share on Reddit" ><i class="fa fa-reddit fa-3x fg-share-gtm fg-download-share-gtm fg-social-share-gtm"></i></a>
+            <a href="/graph/share.php" target="_blank" class="share-facebook tooltips social-share-link fg-download-share-gtm fg-social-share-gtm" data-toggle="tooltip" data-placement="top" title="" data-share-type="facebook" data-original-title="Post on Facebook"><i class="fa fa-facebook fa-3x fg-share-gtm fg-download-share-gtm fg-social-share-gtm"></i></a>
+            <a href="/graph/share.php" target="_blank" class="share-linkedin tooltips social-share-link fg-download-share-gtm fg-social-share-gtm" data-toggle="tooltip" data-placement="top" title="" data-share-type="linkedin" data-original-title="Post to Linkedin"><i class="fa fa-linkedin fa-3x fg-share-gtm fg-download-share-gtm fg-social-share-gtm"></i></a>
+            <br class="clear">
+        </div>
+    </div><!-- /share-col-2 -->
+  </div><!-- /row -->
+
+
+
+
+
+
+</div><!-- /save-share-tab -->
+<div class="tabs-left tabs-scroll">
+    <div class="tab-content-scroll noscrollbar" data-target="#tab-nav">
+      
+        <div id="notes" class="tab-pane ">
+          <div class="panel notes-series-group">
+            <div class="panel-heading">
+                NOTES
+            </div>           
+            <div id="notes-content" class="panel-body">
+                                                    
+        
+                    <p class="col-xs-12 col-md-6 pull-left padding-r25"><strong>Source:</strong>
+            <a class="note-source series-source fg-ext-link-gtm fg-source-link-gtm" rel="nofollow" href="http://www.worldbank.org/" target="_blank">World Bank
+            <i class="fa fa-external-link" aria-hidden="true"></i></a>&nbsp;                    
+        <p class="col-xs-12 col-md-6 pull-left"><strong>Release:</strong>
+            <a
+                    class="note-release series-release fg-ext-link-gtm fg-release-link-gtm" rel="nofollow"
+                    href="http://data.worldbank.org/data-catalog/world-development-indicators" target="_blank">World Development Indicators
+                <i class="fa fa-external-link" aria-hidden="true"></i></a>&nbsp;                    <div class="clearfix"></div>
+
+        <p class="col-xs-12 pull-left"><strong>Units:</strong>&nbsp;
+            <span class="series-meta-value"><span class="series-meta-value-units">
+Current U.S. Dollars</span>,&nbsp;Not Seasonally Adjusted
+  </span>
+        </p>
+        <p class="col-xs-12 pull-left"><strong>Frequency:</strong>&nbsp;
+            <span class="series-meta-value">
+      <span class="series-meta-value-frequency">
+          Annual        </span>
+    </span>
+        </p>
+
+                            <h4 class="section-title hide">Notes:</h4>
+            <p class="series-notes">GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used.<br><br>Source Code: NY.GDP.MKTP.CD</p>
+        
+
+        <div class="series-citation">
+            <h4 class="section-title">Suggested Citation:</h4>
+                                                                <div>
+                <p class="citation">
+                    World Bank,
+                    Gross Domestic Product for Saudi Arabia [MKTGDPSAA646NWDB],
+                    retrieved from FRED,
+                    Federal Reserve Bank of St. Louis;
+                    https://fred.stlouisfed.org/series/MKTGDPSAA646NWDB,
+                    March 22, 2021.
+                </p>
+            </div>
+        </div>
+                    </div>
+          </div><!-- panel -->
+        </div>
+
+        
+        <div id="releasetables" class="tab-pane hide">
+            <div class="panel">
+            <div class="panel-heading">
+                RELEASE TABLES
+            </div>                  
+            <div id="releasetables-content" class="panel-body">            
+                        </div><!-- /panel-body -->
+          </div><!-- /panel -->
+        </div><!-- /relatedcontent -->          
+        
+        <div id="relatedcontent" class="tab-pane ">
+            <div class="panel">
+            <div class="panel-heading">
+                RELATED CONTENT
+            </div>                      
+            <div id="relatedcontent-content" class="panel-body">
+                    <h2>Related Resources</h2>
+    <div id="related-resource-container" class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 related-resource">
+                    <a href="/series/INTGSTSAM193N"
+                       target="_blank" title="Interest Rates, Government Securities, Treasury Bills for Saudi Arabia"><img class="related-resource-img fg-ser-lnk-gtm"
+                                                                         src="/graph/images/clear.png"
+                                                                         data-src="https://fred.stlouisfed.org/graph/fredgraph.png?id=INTGSTSAM193N&nsh=1&width=600&height=400"></a>
+                    <div class="related-resource-source">
+                        
+                    </div>
+                    <div class="related-resource-title">
+                        <a href="/series/INTGSTSAM193N"
+                           target="_blank" title="Interest Rates, Government Securities, Treasury Bills for Saudi Arabia"><strong
+                                    class="fg-ser-lnk-gtm">Interest Rates, Government Securities, Treasury Bills for Saudi Arabia</strong></a>
+                    </div>
+                </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 related-resource">
+                    <a href="/series/HDTGPDUSQ163N"
+                       target="_blank" title="Household Debt to GDP for United States"><img class="related-resource-img fg-ser-lnk-gtm"
+                                                                         src="/graph/images/clear.png"
+                                                                         data-src="https://fred.stlouisfed.org/graph/fredgraph.png?id=HDTGPDUSQ163N&nsh=1&width=600&height=400"></a>
+                    <div class="related-resource-source">
+                        
+                    </div>
+                    <div class="related-resource-title">
+                        <a href="/series/HDTGPDUSQ163N"
+                           target="_blank" title="Household Debt to GDP for United States"><strong
+                                    class="fg-ser-lnk-gtm">Household Debt to GDP for United States</strong></a>
+                    </div>
+                </div>
+                                                                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 related-resource">
+                <a href="https://geofred.stlouisfed.org/map/?seid=MKTGDPSAA646NWDB&utm_source=series_page&utm_medium=related_content&utm_term=related_resources&utm_campaign=geofred" target="_blank" title="Gross Domestic Product for Saudi Arabia"><img class="related-resource-img fg-geo-lnk-gtm" src="/graph/images/clear.png" data-src="https://fred.stlouisfed.org/images/related_resources_geofred.png" alt="GeoFRED logo"></a>
+                <div class="related-resource-source">
+                    GeoFRED Map
+                </div>
+                <div class="related-resource-title">
+                    <a href="https://geofred.stlouisfed.org/map/?sti=1832&amp;rt=country&amp;at=Not Seasonally Adjusted, Annual, Current U.S. Dollars, no_period_desc&amp;fq=Annual&amp;lng=0.0&amp;lat=40.0&amp;zm=2&amp;dt=2019-01-01&amp;th=ylgn&utm_source=series_page&utm_medium=related_content&utm_term=related_resources&utm_campaign=geofred" target="_blank" title="Gross Domestic Product for Saudi Arabia"><strong class="fg-geo-lnk-gtm">Gross Domestic Product for Saudi Arabia</strong></a>
+                </div>
+            </div>
+                                                                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 related-resource">
+                                                            
+                    <a href="https://alfred.stlouisfed.org/series?seid=MKTGDPSAA646NWDB&utm_source=series_page&utm_medium=related_content&utm_term=related_resources&utm_campaign=alfred"
+                       target="_blank" title="Gross Domestic Product for Saudi Arabia">
+                        <img class="related-resource-img fg-alfred-lnk-gtm" src="/graph/images/clear.png"
+                             data-src="https://alfred.stlouisfed.org/graph/alfredgraph.png?mode=alfred&amp;nsh=1&amp;type=image/png&amp;chart_type=column&amp;width=600&amp;height=400&amp;id=MKTGDPSAA646NWDB,MKTGDPSAA646NWDB&amp;vintage_date=2020-07-01,2020-12-16&amp;cosd=1970-01-01,1970-01-01&amp;coed=2019-01-01,2019-01-01&key=1ac9bc0d0316d27636ffd8f8eed06ee4">
+                    </a>
+                    <div class="related-resource-source">
+                        ALFRED Vintage Series
+                    </div>
+                    <div class="related-resource-title">
+                        <a href="https://alfred.stlouisfed.org/series?seid=MKTGDPSAA646NWDB&utm_source=series_page&utm_medium=related_content&utm_term=related_resources&utm_campaign=alfred"
+                           target="_blank" title="Gross Domestic Product for Saudi Arabia"><strong
+                                    class="fg-alfred-lnk-gtm">Gross Domestic Product for Saudi Arabia</strong></a>
+                    </div>
+                </div>
+                                        </div>
+    <h2>Related Categories</h2>
+    <div class="series-tag-cloud">
+                    <a class="series-tag fg-related-category-link-gtm" href="/categories/32291"
+               target="_blank">GDP</a>
+                    <a class="series-tag fg-related-category-link-gtm" href="/categories/32997"
+               target="_blank">National Accounts</a>
+                    <a class="series-tag fg-related-category-link-gtm" href="/categories/32265"
+               target="_blank">Indicators</a>
+                    <a class="series-tag fg-related-category-link-gtm" href="/categories/32805"
+               target="_blank">Saudi Arabia</a>
+                    <a class="series-tag fg-related-category-link-gtm" href="/categories/32264"
+               target="_blank">Countries</a>
+                    <a class="series-tag fg-related-category-link-gtm" href="/categories/32263"
+               target="_blank">International Data</a>
+                <div class="clearfix"></div>
+    </div>
+    <h2>Sources</h2>
+    <div class="series-tag-cloud">
+                                    <a class="series-tag fg-related-source-link-gtm" href="/source?soid=57" target="_blank">More
+                    Releases from World Bank</a>
+                            <div class="clearfix"></div>
+    </div>
+    <h2>Releases</h2>
+    <div class="series-tag-cloud">
+                    <a class="series-tag fg-related-release-link-gtm" href="/release?rid=234" target="_blank">More
+                Series from World Development Indicators</a>
+                <div class="clearfix"></div>
+    </div>
+
+    <h2>Tags</h2>
+    <div class="series-tag-cloud">
+                    <a class="series-tag fg-tag-lnk-gtm" href="/tags/series?t=saudi%20arabia" target="_blank">
+                Saudi Arabia
+            </a>
+                    <a class="series-tag fg-tag-lnk-gtm" href="/tags/series?t=wdi" target="_blank">
+                World Development Indicators
+            </a>
+                    <a class="series-tag fg-tag-lnk-gtm" href="/tags/series?t=world%20bank" target="_blank">
+                World Bank
+            </a>
+                    <a class="series-tag fg-tag-lnk-gtm" href="/tags/series?t=gdp" target="_blank">
+                Gross Domestic Product
+            </a>
+                    <a class="series-tag fg-tag-lnk-gtm" href="/tags/series?t=annual" target="_blank">
+                Annual
+            </a>
+                    <a class="series-tag fg-tag-lnk-gtm" href="/tags/series?t=nation" target="_blank">
+                Nation
+            </a>
+                    <a class="series-tag fg-tag-lnk-gtm" href="/tags/series?t=public%20domain%3A%20citation%20requested" target="_blank">
+                Public Domain: Citation Requested
+            </a>
+                    <a class="series-tag fg-tag-lnk-gtm" href="/tags/series?t=nsa" target="_blank">
+                Not Seasonally Adjusted
+            </a>
+            </div>
+    <div class="clearfix"></div>
+            </div><!-- /panel-body -->
+          </div><!-- /panel -->
+        </div><!-- /relatedcontent -->             
+          
+
+    </div>
+</div>
+
+<div id="popover-container"></div>
+
+<div class="hide">
+<div class="color-popover">
+    <span class="color color-inline color-picker-color" style="background:#4572A7"></span>
+    <span class="color color-inline color-picker-color" style="background:#AA4643"></span>
+    <span class="color color-inline color-picker-color" style="background:#89A54E"></span>
+    <span class="color color-inline color-picker-color" style="background:#80699B"></span>
+    <span class="color color-inline color-picker-color" style="background:#3D96AE"></span>
+    <br class="clear">
+    <span class="color color-inline color-picker-color" style="background:#DB843D"></span>
+    <span class="color color-inline color-picker-color" style="background:#92A8CD"></span>
+    <span class="color color-inline color-picker-color" style="background:#A47D7C"></span>
+    <span class="color color-inline color-picker-color" style="background:#B5CA92"></span>
+    <span class="color color-inline color-picker-color" style="background:#FFFFFF"></span>
+    <br class="clear">
+    <span class="color color-inline color-picker-color" style="background:#0000FF"></span>
+    <span class="color color-inline color-picker-color" style="background:#FF0000"></span>
+    <span class="color color-inline color-picker-color" style="background:#006600"></span>
+    <span class="color color-inline color-picker-color" style="background:#ff6600"></span>
+    <span class="color color-inline color-picker-color" style="background:#6400C8"></span>
+    <br class="clear">
+    <span class="color color-inline color-picker-color" style="background:#CB4AC5"></span>
+    <span class="color color-inline color-picker-color" style="background:#D6AE00"></span>
+    <span class="color color-inline color-picker-color" style="background:#336699"></span>
+    <span class="color color-inline color-picker-color" style="background:#DD4477"></span>
+    <span class="color color-inline color-picker-color" style="background:#660000"></span>
+    <br class="clear">
+    <span class="color color-inline color-picker-color" style="background:#000000"></span>
+    <span class="color color-inline color-picker-color" style="background:#444444"></span>
+    <span class="color color-inline color-picker-color" style="background:#666666"></span>
+    <span class="color color-inline color-picker-color" style="background:#999999"></span>
+    <span class="color color-inline color-picker-color" style="background:#CCCCCC"></span>
+    <br class="clear">
+    <input type="text" class="form-control hex" style="width:105px" maxlength="7">
+</div>
+</div>
+<div class="modal fade" id="remove-series-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Confirm Delete</h3>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to remove this series from the graph? This can not be undone.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" id="remove-series-confirmation">Remove</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="permalink-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 id="permalink-modal-header">Permalink/Embed</h3>
+            </div>
+            <div class="modal-body">
+                <!-- /Share Radio -->
+                <div class="col-xs-12" id="graph-radios">
+                    <div class="radio graph-link-container" id="graph-link-update-container">
+                        <label>
+                        <input id="graph-link-update-radio" class="graph-link-update-radio" type="radio">
+                        <div id="graph-link-update"></div>
+                        </label>
+                    </div>
+                    <div class="radio graph-link-container" id="graph-link-range-container">
+                        <label>
+                              <input id="graph-link-range-radio" class="graph-link-range-radio" type="radio">
+                              <div id="graph-link-range"></div>
+                         </label>
+                    </div>
+                    <div class="radio graph-link-container" id="graph-link-static-container">
+                        <label>
+                             <input id="graph-link-static-radio" class="graph-link-static-radio" type="radio">
+                             <div id="graph-link-static"></div>
+                         </label>
+                    </div>
+                </div>
+                <div class="pull-left col-xs-12 embed-input-container">
+                    <div class="embed-code-container input-group input-group-sm padding-btm20">
+                        <input type="text" id="embed-code" class="readonly form-control fg-share-embed-gtm fg-share-gtm fg-download-share-gtm fg-share-link-gtm" readonly="readonly" value="">
+                        <span id="copy-embed-code" data-clipboard-target="#embed-code" class="input-group-btn copy-to-clipboard fg-download-share-gtm fg-share-link-gtm">
+                            <span class="btn btn-default fg-share-gtm fg-download-share-gtm fg-share-link-gtm"><i class="fa fa-clipboard fg-download-share-gtm fg-share-link-gtm" data-original-title="" title=""></i></span></span>
+                    </div>
+                    <a href="#" id="collapse-embed-responsive" class="embed-code-container collapse-embed-responsive">
+                        Make it responsive
+                    </a>
+                    <div id="embed-container-responsive" class="embed-container-responsive input-group input-group-sm hidden padding-top20 padding-btm20">
+                        <input type="text" id="embed-code-responsive" class="readonly form-control fg-download-share-gtm fg-share-link-gtm" readonly="readonly" value="">
+                        <span id="copy-embed-code-responsive" data-clipboard-target="#embed-code-responsive" class="input-group-btn copy-to-clipboard fg-download-share-gtm fg-share-link-gtm">
+                            <span class="btn btn-default btn-response fg-share-gtm pull-left fg-download-share-gtm fg-share-link-gtm"><i class="fa fa-clipboard fg-download-share-gtm fg-share-link-gtm" data-original-title="" title=""></i></span></span>
+                    </div>
+                    <a href="https://fredhelp.stlouisfed.org/fred/graphs/share-my-fred-graph/how-to-embedding-fred-graphs/" target="_blank" class="embed-code-container">
+                        See FRED Help for usage instructions
+                    </a>
+                    <div class="page-permalink-container input-group input-group-sm" style="display:none">
+                        <input type="text" id="link-code" class="readonly form-control fg-download-share-gtm fg-share-link-gtm fg-share-gtm" value="" readonly="readonly">
+                        <span id="copy-link-code" data-clipboard-target="#link-code" class="input-group-btn copy-to-clipboard fg-download-share-gtm fg-share-link-gtm"><span class="btn btn-default fg-share-gtm fg-download-share-gtm fg-share-link-gtm"><i class="fa fa-clipboard fg-download-share-gtm fg-share-link-gtm" data-original-title="" title=""></i></span></span>
+                    </div>
+                    <div class="image-permalink-container input-group input-group-sm" style="display:none">
+                        <input type="text" id="image-code" class="readonly form-control fg-share-image-gtm fg-share-gtm fg-download-share-gtm fg-share-link-gtm" value="" readonly="readonly">
+                        <span id="copy-image-code" data-clipboard-target="#image-code" class="input-group-btn copy-to-clipboard fg-download-share-gtm fg-share-link-gtm"><span class="btn btn-default fg-share-gtm fg-download-share-gtm fg-share-link-gtm"><i class="fa fa-clipboard fg-download-share-gtm fg-share-link-gtm" data-original-title="" title=""></i></span></span>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Done</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="save-graph-modal">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Save Graph To User Account</h3>
+            </div>
+            <div class="modal-body">
+                <button type="button" class="btn btn-default series-button update-graph" data-graph-id="">Save graph</button>
+                <button type="button" class="btn btn-default series-button save-graph">Save as new graph</button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="share-modal" class="modal fade " role="dialog">
+
+</div>
+
+<div class="loading-icon alert alert-info hide alert-dismissible" style="width:191px;position:fixed;bottom:0;right:20px;z-index:5000">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <i class="fa fa-spinner fa-spin"></i> Retrieving data.
+</div>
+
+<div class="update-alert alert alert-success alert-dismissible hide" style="width:191px;position:fixed;bottom:0;right:20px;z-index:5000">
+    <button type="button" class="close" data-dismiss="alert" style="z-index:5000">&times;</button>
+    <i class="fa fa-check"></i> Updating graph.
+</div>
+
+
+                        <button disabled
+                class="drawer-dropdown-trigger filter-tags-btn btn affix btn-block btn-default dropdown-is-active"><i
+                class="fa fa-filter" style="padding-right:5px;"></i>Filter <span
+                class="badge badge-primary hidden">0</span></button>
+                    </div>
+            
+    <link href=/css/1616173444.footer.min.css rel="stylesheet" media="all">
+    <script></script>
+        <br class="clear">
+</div>
+
+    <div id="footer" class="hidden-print row ">
+        <a name="foot-search-a" class="xs-anchor"></a>
+       <form action="//fred.stlouisfed.org/searchresults" id="foot-search-form" class="visible-xs-block col-xs-12">
+           <div id="foot-search-container">
+               <input type="text" id="foot-search" name="st" class="js-placeholder" title="Search FRED"><button type='submit' class="pull-right" id="foot-search-button">&nbsp;</button>
+           </div>
+       </form>
+
+       
+        <div class="col-xs-12 col-sm-2">
+            <ul>
+                <li class="footer-section-header">SERVICES</li>
+                <li><a href="//fred.stlouisfed.org/">FRED&reg;</a></li>
+                <li><a href="//alfred.stlouisfed.org/">ALFRED&reg;</a></li>
+                <li><a href="//geofred.stlouisfed.org">GeoFRED&reg;</a></li>
+                <li><a href="//fraser.stlouisfed.org">FRASER&reg;</a></li>
+                <li><a href="//ideas.repec.org">IDEAS</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-2 col-md-3">
+            <ul>
+                <li class="footer-section-header">RESEARCH</li>
+                <li><a href="//research.stlouisfed.org/regecon/">Eighth District Economy</a></li>
+                <li><a href="//research.stlouisfed.org/wp/">Working Papers</a></li>
+                <li><a href="//research.stlouisfed.org/conferences/">Events</a></li>
+                <li><a href="//research.stlouisfed.org/publications/">Publications</a></li>
+                <li><a href="//research.stlouisfed.org/resources.html">Other Resources</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-3">
+            <ul>
+                <li class="footer-section-header">TOOLS</li>
+                <li><a href="//fred.stlouisfed.org/fred-mobile/">FRED Mobile Apps</a></li>
+                <li><a href="//fred.stlouisfed.org/fred-addin/">FRED Add-In for Excel&reg;</a></li>
+                <li><a href="//research.stlouisfed.org/useraccount/fredcast/">
+                    FREDcast®
+                </a></li>
+                <li><a href="//fredhelp.stlouisfed.org/fred/graphs/share-my-fred-graph/embedded-fred-a-widget-just-for-you/">Embeddable FRED Widget</a></li>
+                <li><a href="//fred.stlouisfed.org/docs/api/fred/">Developer/APIs</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 ">
+            <ul>
+                <li class="footer-section-header">ABOUT</li>
+                <li><a href="//research.stlouisfed.org/jobopps/">Careers</a></li>
+                <li><a class="contact-hash footer-contactus-link-gtm" href="//fred.stlouisfed.org/contactus/">Contact</a></li>
+                <li><a href="//research.stlouisfed.org/rss/">RSS</a></li>
+                <li><a href="//fred.stlouisfed.org/legal/">Legal</a></li>
+                <li><a href="//research.stlouisfed.org/privacy.html">Privacy Notice & Policy</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-2">
+            <ul>
+                <li class="footer-section-header">OUR SITES</li>
+                <li><a href="//www.stlouisfed.org/">St. Louis Fed</a></li>
+                <li><a href="//federalreserveonline.org">Federal Reserve System</a></li>
+                <li><a href="//research.stlouisfed.org">Research Division</a></li>
+                <li><a href="//www.stlouisfed.org/education/">Education Resources</a></li>
+            </ul>
+        </div>
+            </div>
+
+        <div class="footer2 hidden-print row">
+        <div class="col-xs-12 col-sm-3">
+            <h3>Need Help?</h3>
+            <div>
+                <a class="footer-questions-gtm" href="//fred.stlouisfed.org/contactus/" class="q-and-a-link-gtm">Questions or Comments</a>
+            </div>
+
+            <div style="padding: 10px 0 20px 0;">
+                <a class="footer-fredhelp-gtm" href="//fredhelp.stlouisfed.org/">FRED Help</a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-12">
+                <h3>Subscribe to the FRED newsletter</h3>
+                <div id="subscribe-div" class="form-horizontal newsletter-form" style="padding:0;margin:0">
+                    <div>
+                        <div class="col-xs-12" style="padding-left: 0;">
+                            <div class="input-group">
+                                <input id="subscribe-email-input" type="text" name="email" placeholder="Email" class="form-control email">
+                                <span class="input-group-btn"><button id="subscribe-email-btn" type="button" class="btn btn-default subscribe-newsletter-btn-gtm" style="color: #333;">Subscribe</button></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr class="visible-xs-block">
+    <div class="col-xs-12 col-sm-2 col-sm-offset-1">
+        <h3>Follow us</h3>
+        <div class="col-xs-12" style="margin-bottom: 10px; padding-left: 0;">
+            <a href="http://bit.ly/9ngC3L"><i class="fa fa-fw fa-2x fa-twitter"></i></a>
+            <a href="http://bit.ly/HeaderFB"><i class="fa fa-fw fa-2x fa-facebook"></i></a>
+            <a href="http://bit.ly/aY9TVF"><i class="fa fa-fw fa-2x fa-youtube"></i></a>
+            <a href="http://bit.ly/d056zL"><i class="fa fa-fw fa-2x fa-linkedin"></i></a>
+        </div>
+    </div>
+</div>
+
+    <div class="hidden-print visible-xs-block">
+        <a style="margin: 5px; display: block; padding:5px 10px; text-align: center" href="#top">Back to Top</a>
+    </div>
+
+    <div id="footer-bottom">
+        <div id="address">
+            Federal Reserve Bank of St. Louis,
+            One Federal Reserve Bank Plaza,
+            St. Louis, MO 63102
+        </div>
+    </div>
+
+</div>
+<script>
+    // function to parse cookies, and return the value
+    function getCookie(name) {
+        var cookies = document.cookie.split(';');
+        for (var i in cookies) {
+            var cookie = cookies[i].trim().split('=');
+            if (cookie[0] == name) {
+                return cookie[1];
+            }
+        }
+        return null;
+    }
+    // certain pages in FRED set a custom tag variable
+    // this gets sent to Google Analytics so we can see what tags people are using
+    if (window.tags) {
+        dataLayer.push({'tags':tags});
+
+    }
+
+    // if the user is logged in, send the value of the liruid cookie to Google Analytics
+    var researchLiruid = getCookie('research-liruid');
+    dataLayer.push({'userId':researchLiruid});
+
+</script>
+<!--<script src="//fred.stlouisfed.org/assets/modernizr/dist/1544152624.modernizr.min.js"></script>-->
+<script src="//fred.stlouisfed.org/assets/jquery/dist/1463764735.jquery.min.js" type="text/javascript"></script>
+<script src="//fred.stlouisfed.org/assets/bootstrap/dist/js/1550073338.bootstrap.min.js"></script>
+<script>
+    // force expire the .fred.stlouisfed.org _ga cookie
+    document.cookie = document.cookie + '_ga=;domain=.fred.stlouisfed.org;expires=Sat, 01-Jan-2000 00:00:00 GMT';
+</script>
+
+<script defer src="//fred.stlouisfed.org/assets/1616173441.jquery.menu-aim.min.js"></script>
+<script defer src="//fred.stlouisfed.org/js/lib/jquery/plugins/jquery.hotkeys.js"></script>
+
+    <script async src="//fred.stlouisfed.org/js/1616173441.common.min.js"></script>
+
+<script src="//fred.stlouisfed.org/js/jquery/plugins/jquery.cookie.js"></script>
+<script defer src="//fred.stlouisfed.org/js/1594739394.vendors.dist.js"></script>
+<!-- <script defer src="//fred.stlouisfed.org/js/1606231547.banner.js"></script> -->
+<script defer src="//research.stlouisfed.org/assets/js/1608146769.user-init.js"></script>
+<script defer src="//fred.stlouisfed.org/assets/select2/dist/js/1508969298.select2.min.js"></script>
+
+    <link href=/css/1616173444.contact.min.css rel="stylesheet" media="(min-width: 767px)">
+    <script></script>
+    </div>
+▽<script>
+  var websiteCfg = {"research_host" : "research.stlouisfed.org", "fred_host" : "fred.stlouisfed.org",  "alfred_host" : "alfred.stlouisfed.org"};
+</script>
+
+<a href="#0" class="back-top">Top</a>
+<script src=/assets/bootstrap-datepicker/dist/1544152624.bootstrap-datepicker.min.js></script>
+<script defer src=/assets/clipboard.js/dist/1544152624.clipboard.min.js></script>
+<script src=/assets/fileDownload/1616173440.fileDownload.min.js></script>
+<script src=/graph/js/1616173440.bottomextra.min.js></script>
+
+<head><link href="/static/css/main.css?LYScuWxd42v3" rel="stylesheet"></head><script src="/static/js/main.js?LYScuWxd42v3"></script>
+
+
+</body>
+</html>

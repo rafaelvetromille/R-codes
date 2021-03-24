@@ -1,0 +1,561 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR" >
+  <head><title>
+	Despesas por Fornecedor / Credor
+        - Prefeitura de São José dos Campos
+      
+</title>
+    
+    <!-- meta information for search engines -->
+    <meta http-equiv="X-UA-Compatible" content="IE=8" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Cache-Control" content="no-cache" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><meta name="keywords" content="Prefeitura, Cidade, Serviços, Online, São José dos Campos" /><meta name="description" content="Prefeitura de São José dos Campos" /><meta name="google-site-verification" content="G0I3eWjeIxqvxiWR5jQ2w7NKi5MaDHZb83imD5_loFY" />
+    <!-- <meta name="google-site-verification" content="u9UUO_-__SDfq4Zq3h-qqtznB6_RYlPxEEzPIo4ZsVw" /> -->
+    <meta name="author" content="Prefeitura de São José dos Campos" /><meta name="language" content="pt-br" /><meta name="classification" content="E-GOV" /><meta name="GlobalSignValidation" content="Olá Globalsign 0hhj7K" />
+  
+    <!-- CSS e Icones -->
+    <link href="/favicon.ico?v=2017" rel="shortcut icon" />
+    <style type="text/css" media="all">
+      @import "/css/estrutura.css?v=3";
+      @import "/css/cabecalho.css?v=3";
+      @import "/css/rodape.css?v=3";
+      @import "/css/style.css?v=3";
+      @import "/css/home.css?v=3";
+      @import "/css/noticias.css?v=3";
+      @import "/css/secretarias.css?v=3";
+      @import "/css/formularios.css?v=3";
+      @import "/css/saladeimprensa.css?v=4";
+      @import "/css/padronizacao.css?v=3";
+      @import "/css/barra.css?v=4";
+      @import "/css/expediente_calendario.css?v=3";
+      @import "/css/hotsites.css?v=4";
+      @import "/css/periodo_eleitoral.css?v=3";
+      @import "/css/novo_layout_home.css?v=10";
+    </style>
+    
+      
+      <style type="text/css">
+        #textosnoticias {width:100% !important;}
+        #nomechapeu {padding: 10px 0px;}
+        .bloco_midia_social_geral{display:none;}
+      </style>
+      
+    <!-- Estilo para nao imprimir a barra de identidade -->
+    <style type="text/css" media="print">
+      #div_pmsjc_barra_identidade { display: none; }
+    </style>
+    
+    <!-- Verifica se a pagina precisa ou nao rodar sobre https -->
+    
+    <script src="/scripts/combo_sec_fund.js" type="text/javascript"></script>
+    <script src="/scripts/tamanhofonte.js" type="text/javascript"></script>
+    <script src="/scripts/FuncoesDiversas.js" type="text/javascript"></script>
+    <script src="/scripts/redes_sociais.js" type="text/javascript"></script>
+    <script src="/scripts/swfobject_modified.js" type="text/javascript"></script>
+    <script src="/scripts/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/scripts/jquery.cycle.all.js" ></script> 
+    <script src="/scripts/esconde_div.js" type="text/javascript"></script>
+    
+    <!-- GOOGLE ANALYTICS -->
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-16979928-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('require', 'linkid', 'linkid.js');
+      ga('send', 'pageview');
+    </script>
+    <!-- GOOGLE ANALYTICS -->  
+    
+    <!-- Hack: Script para tirar as bordas de todos os inputs tipo radio e checkbox -->
+    <script type="text/javascript">
+      function tiraBordaCheckRadio() {
+        $('input[type="checkbox"]').toggleClass('sem_borda', true);
+        $('input[type="radio"]').toggleClass('sem_borda', true);
+      }
+      $(document).ready(function() {
+        tiraBordaCheckRadio();
+      });
+    </script>
+    <!-- Hack: Script para tirar as bordas de todos os inputs tipo radio e checkbox -->
+    
+<!-- HAND TALK -->
+<script type="text/javascript">
+  var _hta = {'_setToken': 'fd6df1ede1667bbaf4ccacad76ca2e848663e891','_htException': 'HandTalk_EXCECAO'};
+  (function() {
+    var ht = document.createElement('script'); ht.type = 'text/javascript'; ht.async = true;
+    //ht.src = 'http://api.handtalk.me/handtalk_init.js';
+    ht.src = '//api.handtalk.me/handtalk_init.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.appendChild(ht);
+  })();
+  //  HandTalk_EXCECAO -> ID ou CLASSE do elemento que desejar exceção, separados por virgula
+  //  Exemplo:  '#menu,.listas,.formulario,#carrousel'
+</script>
+<!-- HAND TALK --> 
+    
+    
+  
+  <style type="text/css">
+  .fonte_grid_transparencia {
+    font-size: 11px;
+    line-height: normal;
+  }
+</style>  
+  <style type="text/css">
+    #fs_transp_filtro { border: 1px solid silver; }
+    #fs_transp_filtro legend { border: 1px solid silver; background-color: white; padding: 3px; }
+    #corpo_final_ferramentas { width: 100%; margin-top: 5px; margin-left: 0px; }
+  </style>
+  <style type="text/css" media="print">
+    #tudo {width: 100%;}
+    #topo {display: none;}
+    #rodape {display: none;}
+    #coluna1 {display: none;}
+    #coluna2 {width: 100%; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
+    #homecoluna1 {display: none;}
+    #homecoluna2 {display: none;}
+    #ferramentas_a2 {display: none;}
+    #corpo_final_ferramentas {display: none;}
+    #corpo_coluna1_imprimir {display: none;}
+    .nao_imprime {display: none;}
+  </style>
+  <script src="/scripts/f_formatadado.js" type="text/javascript"></script>
+
+</head>
+  
+  <body>  
+    <noscript>Seu navegador não suporta javascript!</noscript>
+    <form name="aspnetForm" method="post" action="/servicos/portal_da_transparencia/despesa_fornecedor.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=dkruI_0deYMxQQ_JmvIrnSyV_hqOFpU4BzXXc8UOTFvqdBgDbZam_0bWrLFxuER4xYCOEAeNto1cJJcAxOrlvB2ltaJ80cHARb7smosbDSmFsyrM4wHbFJvhBkX44gwUeyUgsM8fS_oYhm-a2nOBvuv8Ik41&amp;t=3f4a792d" type="text/javascript"></script>
+    <!--[if lt IE 8]><p>Atualize a versão do seu navegador Internet Explorer para ver corretamente este site. Para isso, <a href='http://windows.microsoft.com/pt-BR/internet-explorer/downloads/ie' target='_blank'>clique aqui</a>.</p><![endif]-->
+    
+    <!-- SCRIPT MANAGER -->
+    
+
+<!-- HOME -->
+    <div id="box_home_pmsjc_tudo">
+      
+      <!-- CABECALHO -->
+      <div style="width:100%; min-width:1000px;">
+        <iframe id="iframe_cabecalho" scrolling="no" src="//servicos.sjc.sp.gov.br/cabecalho/index.htm" width="100%" height="175" frameborder="0">
+        </iframe>
+      </div>
+      <!-- CABECALHO -->
+      
+
+      <!-- CONTEUDO -->
+      <div class="box_home_pmsjc_conteudo_geral">
+        
+  
+
+  <!-- BLOCO FERRAMENTA ACESSIBILIDADE -->
+  <div class="chapeu">
+      <div id="ferramenta_acessibilidade_content">
+        <div id="ferramentas_a" style="text-align:left;">
+          
+
+    <div class="ferramentas_acessibilidade">
+       <a href="#">TAMANHO DA LETRA</a>&nbsp;
+       <a onclick="layoutMudaTamanho(1)" style="cursor: pointer;">
+            <img src="/pmsjc_imagens/conteudo/noticias/amais.jpg" align="top" alt="Aumentar Fonte"/>
+       </a>
+       <a onclick="layoutMudaTamanho(-1)" style="cursor: pointer;">
+            <img src="/pmsjc_imagens/conteudo/noticias/amenos.jpg" align="top" alt="Diminuir Fonte" />
+       </a>
+       &nbsp;|&nbsp;
+       <a href="javascript:window.print();" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_BarraDeFerramentas_5_imprimir1" title="Abre a versão para impressão">
+            <img src="/pmsjc_imagens/conteudo/noticias/imprimir.jpg" align="top" alt="Imprimir"/>
+       </a>
+       <a href="javascript:window.print();" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_BarraDeFerramentas_5_imprimir2" title="Abre a versão para impressão">
+            IMPRIMIR
+       </a>
+       &nbsp;|&nbsp;
+       <a href="http://www.sjc.sp.gov.br/enviar-por-e-mail/?pagina=0&url=https://servicos2.sjc.sp.gov.br/servicos/portal_da_transparencia/despesa_fornecedor.aspx&nome=despesa_fornecedor" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_BarraDeFerramentas_5_enviarEmail1" title="Abre o formulário para enviar esta página para um endereço de e-mail">
+            <img src="/pmsjc_imagens/conteudo/noticias/email.jpg" align="top" alt="Enviar por e-mail" />
+       </a>
+       <a href="http://www.sjc.sp.gov.br/enviar-por-e-mail/?pagina=0&url=https://servicos2.sjc.sp.gov.br/servicos/portal_da_transparencia/despesa_fornecedor.aspx&nome=despesa_fornecedor" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_BarraDeFerramentas_5_enviarEmail2" title="Abre o formulário para enviar esta página para um endereço de e-mail">
+            ENVIAR POR E-MAIL
+       </a>
+       &nbsp;|&nbsp;
+       <a href="http://www.sjc.sp.gov.br/informar-erro/?pagina=0&url=https://servicos2.sjc.sp.gov.br/servicos/portal_da_transparencia/despesa_fornecedor.aspx&nome=despesa_fornecedor" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_BarraDeFerramentas_5_comunicarErro1" title="Abre o formulário para comunicar erros nesta página">
+            <img src="/pmsjc_imagens/conteudo/noticias/erro.jpg" align="top" alt="Comunicar Erro" />
+       </a>
+       <a href="http://www.sjc.sp.gov.br/informar-erro/?pagina=0&url=https://servicos2.sjc.sp.gov.br/servicos/portal_da_transparencia/despesa_fornecedor.aspx&nome=despesa_fornecedor" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_BarraDeFerramentas_5_comunicarErro2" title="Abre o formulário para comunicar erros nesta página">
+            COMUNICAR ERRO
+       </a>
+    </div>
+ 
+
+        </div>
+      </div>
+      <div class="clear_secretaria_foto">
+      </div>
+  </div>
+  <!-- BLOCO FERRAMENTA ACESSIBILIDADE -->
+  
+  <!-- BLOCO FERRAMENTAS TITULO -->
+  <div class="chapeu">
+      <div id="nomesecretaria" class="nomem">
+        <a name="conteudo_principal"></a>
+        Despesas por Fornecedor / Credor
+      </div>
+      <div class="clear_secretaria_foto">
+      </div>
+  </div>
+  <!-- BLOCO FERRAMENTAS TITULO -->
+  
+  <!-- ----------------------------------------------------------------------------------------- -->
+  
+  <div id="corpo" style="width:100%; clear:both;">
+    
+
+<div class="intertitulo">Despesas por Fornecedor / Credor</div>
+
+<div class="observacoes">
+    <!-- Última atualização: -->
+    Última atualização:&nbsp; 
+    <span id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lblAtualizacao">21/03/2021<br />&#218;ltimo pagamento: 18/03/2021 - A &amp; J EMPREENDIMENTOS COMERCIAIS LTDA - EPP</span>
+</div>
+
+<div>
+    
+                            
+    
+    
+    
+    
+</div>
+
+  
+
+<div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPeriodo">
+	
+
+     <!--ANO-->
+     <div style="text-align:center; margin-bottom: 10px;">
+        Ano:
+	    <select name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$cboAno" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_cboAno">
+		<option selected="selected" value="2021">2021</option>
+		<option value="2020">2020</option>
+		<option value="2019">2019</option>
+		<option value="2018">2018</option>
+		<option value="2017">2017</option>
+		<option value="2016">2016</option>
+		<option value="2015">2015</option>
+		<option value="2014">2014</option>
+		<option value="2013">2013</option>
+		<option value="2012">2012</option>
+		<option value="2011">2011</option>
+		<option value="2010">2010</option>
+
+	</select>        
+     </div>
+	 <!--ANO-->
+	 
+	 <!--RESUMO DAS DESPESAS MENSAIS-->
+	 <div align="center">
+	     <div>
+		<table class="textosm" cellspacing="2" cellpadding="4" border="0" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_gvLista" style="width:300px;">
+			<caption>
+				<b>Resumo das despesas mensais.</b>
+			</caption><tr class="texto" style="color:White;background-color:#26508C;">
+				<th scope="col">M&#234;s</th><th align="right" scope="col">Valor pago (R$)</th>
+			</tr><tr>
+				<td align="left">01 - Janeiro  </td><td align="right">138.988.681,25</td>
+			</tr><tr style="background-color:#CCCCCC;">
+				<td align="left">02 - Fevereiro</td><td align="right">161.421.445,77</td>
+			</tr><tr>
+				<td align="left">03 - Mar&#231;o    </td><td align="right">102.850.394,61</td>
+			</tr>
+		</table>
+	</div>
+     </div>
+      <!--RESUMO DAS DESPESAS MENSAIS-->
+
+</div>
+
+<div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panFornecedor">
+	
+    
+    <!-- FILTRO -->
+    <fieldset id="fs_transp_filtro">
+        <legend>Filtros</legend>
+
+        <div class="formulario_label"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_txtNomeFiltro">Nome ou Razão Social:</label></div>
+        <div class="formulario_campo01">
+            <input name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$txtNomeFiltro" type="text" maxlength="80" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_txtNomeFiltro" class="input2" />
+	    </div>		
+	    <div class="formulario_cont01"></div>
+	    <div class="formulario_label_nada"></div>
+	    <div class="formulario_comentario01">Informe uma parte do nome do fornecedor / credor para busca</div>
+	    <div class="formulario_clear"></div>
+	    
+	    <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_uppTipoDocFiltro">
+		
+
+                <div class="formulario_label"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_cmbTipoDocFiltro">Tipo de documento:</label></div>
+                <div class="formulario_campo01">
+                    <select name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$cmbTipoDocFiltro" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_cmbTipoDocFiltro" class="input5">
+			<option selected="selected" value="">Indiferente</option>
+			<option value="CPF">CPF</option>
+			<option value="CNPJ">CNPJ</option>
+
+		</select>
+	            </div>
+	            <div class="formulario_clear"></div>
+	            
+	            
+	        
+	        
+	</div>
+
+	    <!-- PESQUISAR -->
+        <div class="formulario_label_botao"></div>
+        <div class="formulario_campo02">
+            <input type="submit" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$btnFiltrar" value="Filtrar" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_btnFiltrar" class="botao" />
+            &nbsp;&nbsp;
+            <input type="submit" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$btnLimparFiltro" value="Limpar Filtros" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_btnLimparFiltro" class="botao" style="width:auto" />
+        </div>
+        <div class="formulario_clear"></div>
+        <!-- PESQUISAR -->
+	    
+    </fieldset>
+	<!-- FILTRO -->
+
+    <p class="texto"  style="text-align:center">
+        
+        Clique no nome do fornecedor / credor desejado para visualizar os pagamentos.</p>
+    
+    <div>
+        <div style="float:left; width:50%; text-align:left;">
+            <b>Despesas do ano por fornecedor / credor</b>
+        </div>
+        <div style="float:left; width:50%; text-align: right">
+            <!-- EXPORTAR -->
+            <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panExportaFornecedor">
+		
+                <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkExportarFornecedores" title="Exporta a seleção de dados atual" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkExportarFornecedores','')"><img src="/pmsjc_imagens/transparencia/disquete.gif" border="0" alt="Exportar" /> Exportar</a>
+            
+	</div>
+            <!-- EXPORTAR --> 
+        </div>
+    </div>
+    
+    <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_upnFornecedores">
+		        
+    <!--FORNECEDORES-->
+       <div>
+			<table class="textosm" cellspacing="2" cellpadding="4" border="0" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_gvFornecedor" style="width:100%;">
+				<tr class="texto" style="color:White;background-color:#26508C;">
+					<th scope="col" style="color:White;background-color:#26508C;">Fornecedor / Credor</th><th align="center" scope="col">&#218;ltimo pagamento no ano</th><th align="right" scope="col">CPF / CNPJ</th><th align="right" scope="col">Valor pago (R$)</th>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$0')">A & J EMPREENDIMENTOS COMERCIAIS LTDA - EPP</a></td><td align="center" style="width:20%;">18/03/2021</td><td align="right" style="width:20%;">04.126.616/0001-64</td><td align="right" style="width:20%;">317.312,67</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$1')">A. C. R. AVALIACOES LTDA - ME</a></td><td align="center" style="width:20%;">07/01/2021</td><td align="right" style="width:20%;">08.890.317/0001-52</td><td align="right" style="width:20%;">4.690,00</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$2')">A. DA SILVA LIMA COMERCIO DE EQUIPAMENTOS EM GERAL</a></td><td align="center" style="width:20%;">05/03/2021</td><td align="right" style="width:20%;">20.050.544/0001-75</td><td align="right" style="width:20%;">6.550,26</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$3')">A E P EMPREENDIMENTOS E PARTICIPACOES LTDA</a></td><td align="center" style="width:20%;">11/02/2021</td><td align="right" style="width:20%;">02.519.907/0001-97</td><td align="right" style="width:20%;">3.075,47</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$4')">A I PALMAS AR CONDICIONANDO - ME</a></td><td align="center" style="width:20%;">08/03/2021</td><td align="right" style="width:20%;">11.793.706/0001-74</td><td align="right" style="width:20%;">1.080,00</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$5')">A L EQUIPAMENTOS MEDICOS EIRELI</a></td><td align="center" style="width:20%;">26/02/2021</td><td align="right" style="width:20%;">29.753.978/0001-06</td><td align="right" style="width:20%;">7.498,00</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$6')">A M P COMERCIAL EIRELI</a></td><td align="center" style="width:20%;">18/03/2021</td><td align="right" style="width:20%;">34.884.297/0001-17</td><td align="right" style="width:20%;">26.245,15</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$7')">A W SPORTS - EIRELI - EPP</a></td><td align="center" style="width:20%;">05/03/2021</td><td align="right" style="width:20%;">16.903.888/0001-02</td><td align="right" style="width:20%;">12.319,70</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$8')">AARON SALES DE ALMEIDA</a></td><td align="center" style="width:20%;">15/01/2021</td><td align="right" style="width:20%;">316.068.668-00</td><td align="right" style="width:20%;">165,66</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$9')">ABBOTT LABORATORIOS DO BRASIL LTDA</a></td><td align="center" style="width:20%;">11/03/2021</td><td align="right" style="width:20%;">56.998.701/0033-01</td><td align="right" style="width:20%;">168.295,06</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$10')">ABC DO VALE TRANSPORTES LTDA</a></td><td align="center" style="width:20%;">08/03/2021</td><td align="right" style="width:20%;">22.399.193/0001-38</td><td align="right" style="width:20%;">3.800,00</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$11')">ABC TRANSPORTES COLETIVOS VALE PARAIBA LTDA</a></td><td align="center" style="width:20%;">23/02/2021</td><td align="right" style="width:20%;">45.176.864/0001-05</td><td align="right" style="width:20%;">3.663,60</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$12')">ABIGAIR ANDRADE DO CARMO</a></td><td align="center" style="width:20%;">05/03/2021</td><td align="right" style="width:20%;">515.520.518-20</td><td align="right" style="width:20%;">44,00</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$13')">ACACIA COMERCIO DE MEDICAMENTOS EIRELI</a></td><td align="center" style="width:20%;">21/01/2021</td><td align="right" style="width:20%;">03.945.035/0001-91</td><td align="right" style="width:20%;">1.166,40</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$14')">ACAF- ASSOC. DOS CLUBES AMADORES DE FUT. SJC</a></td><td align="center" style="width:20%;">18/01/2021</td><td align="right" style="width:20%;">04.533.920/0001-26</td><td align="right" style="width:20%;">46.222,18</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$15')">ACALIAN SOUSA NUNES DE DEUS</a></td><td align="center" style="width:20%;">17/02/2021</td><td align="right" style="width:20%;">418.367.698-30</td><td align="right" style="width:20%;">1.038,01</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$16')">ACTA MEDICINA DIAGNOSTICA LTDA</a></td><td align="center" style="width:20%;">09/02/2021</td><td align="right" style="width:20%;">04.109.493/0001-53</td><td align="right" style="width:20%;">325.055,18</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$17')">ADALBERTO RODRIGUES FILHO</a></td><td align="center" style="width:20%;">29/01/2021</td><td align="right" style="width:20%;">041.937.578-38</td><td align="right" style="width:20%;">11,00</td>
+				</tr><tr>
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$18')">ADALBERTO SOARES COSTA</a></td><td align="center" style="width:20%;">16/03/2021</td><td align="right" style="width:20%;">286.047.228-23</td><td align="right" style="width:20%;">9.205,80</td>
+				</tr><tr style="background-color:#CCCCCC;">
+					<td style="width:40%;"><a href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$gvFornecedor','CLICAR$19')">ADAM GOLL</a></td><td align="center" style="width:20%;">22/02/2021</td><td align="right" style="width:20%;">409.521.828-23</td><td align="right" style="width:20%;">116,18</td>
+				</tr>
+			</table>
+		</div>    
+    <!--FORNECEDORES-->
+    <br />
+     <!-- PAGINADOR INFERIOR: inicio -->
+     <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPaginador">
+			
+    <div class="paginador">
+        <div class="paginador_anterior_proxima">
+            
+            Primeira
+        </div>
+        <div class="paginador_separador">|</div>
+        <div class="paginador_anterior_proxima">
+            
+            Anterior
+        </div>
+        <div class="paginador_separador">|</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag1" class="paginador_atual">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag1" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag1','')">1</a>
+            
+        
+			</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag2" class="paginador_outra">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag2" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag2','')">2</a>
+            
+        
+			</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag3" class="paginador_outra">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag3" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag3','')">3</a>
+            
+        
+			</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag4" class="paginador_outra">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag4" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag4','')">4</a>
+            
+        
+			</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag5" class="paginador_outra">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag5" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag5','')">5</a>
+            
+        
+			</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag6" class="paginador_outra">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag6" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag6','')">6</a>
+            
+        
+			</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag7" class="paginador_outra">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag7" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag7','')">7</a>
+            
+        
+			</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag8" class="paginador_outra">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag8" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag8','')">8</a>
+            
+        
+			</div>
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_panPag9" class="paginador_outra">
+				
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPag9" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPag9','')">9</a>
+            
+        
+			</div>
+        <div class="paginador_separador">|</div>
+        <div class="paginador_anterior_proxima">
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPagProxima" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPagProxima','')">Próxima</a>
+            
+        </div>
+        <div class="paginador_separador">|</div>
+        <div class="paginador_anterior_proxima">
+            <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolderDefault_modelo_master_meio_modelo_uma_coluna_meio_ctl02_Transp_DespesasFornecedores_v2_6_lnkPagUltima" href="javascript:__doPostBack('ctl00$ctl00$ctl00$ctl00$ContentPlaceHolderDefault$modelo_master_meio$modelo_uma_coluna_meio$ctl02$Transp_DespesasFornecedores_v2_6$lnkPagUltima','')">Última</a>
+            
+        </div>
+    </div>
+
+		</div>
+    <!-- PAGINADOR INFERIOR: fim -->
+    
+	</div>                             
+
+</div>
+
+
+
+<div style="width:100%; clear:both;">
+    <div>&nbsp;</div>
+    <p>
+        <b>Contato</b>
+    </p>
+    <p>
+        Para atendimento, ligue gratuitamente para o número 156 - funciona de 
+        segunda a sábado das 6h às 22h e domingo das 8h às 20h, exceto feriados. 
+        <br />Ou acesse o atendimento on-line, 
+        <a href="/servicos/atendimento156.aspx" target="_top">Atendimento 156 on-line</a>.
+    </p>
+</div>
+
+
+  </div>
+
+  <div style="width:100%; clear:both;"></div>
+
+  <div id="corpo_final_ferramentas">
+    <div>&nbsp;</div>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td width="20%" valign="bottom" style="text-align:left;">
+          <a href="javascript:history.back();">
+            <img src="/pmsjc_imagens/voltar.gif" width="52" height="21" border="0" alt="Voltar" align="top" />
+          </a>
+        </td>
+        <td width="80%" valign="bottom" style="text-align:right; padding-bottom:1px;">
+          &nbsp;
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
+
+        <div class="box_home_pmsjc_conteudo_geral_clear">
+        </div>
+      </div>
+      <!-- CONTEUDO -->
+
+      
+      <!-- RODAPE -->
+      <div style="width:100%; min-width:1000px;">
+        <iframe id="iframe_cabecalho" scrolling="no" src="//servicos.sjc.sp.gov.br/cabecalho/rodape.htm" width="100%" height="70" frameborder="0">
+        </iframe>
+      </div>
+      <!-- RODAPE -->
+                
+    </div>
+    <!-- HOME -->
+      
+      
+    
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+  </body>
+  
+</html>
