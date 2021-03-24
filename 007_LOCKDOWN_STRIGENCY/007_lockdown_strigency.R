@@ -62,17 +62,3 @@ ggplot(data = base, aes(x = change_stringency, y = gdp_growth, color = quarter))
                                     color = quarter,
                                     label = ..eq.label..)) +
   scale_color_manual(values = c("#00AFBB", "#E7B800", "#FC4E07", "#ff00ff"))
-
-
-
-df <- mtcars %>%
-  as_tibble() %>%
-  dplyr::mutate(cyl = as.character(cyl))
-
-df
-b <- ggplot(df, aes(x = wt, y = mpg))
-
-b + geom_point(aes(color = cyl, shape = cyl)) +
-  geom_smooth(aes(color = cyl), method = lm,
-              se = FALSE, fullrange = TRUE)+
-  scale_color_manual(values = c("#00AFBB", "#E7B800", "#FC4E07"))
